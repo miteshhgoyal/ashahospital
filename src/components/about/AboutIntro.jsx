@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const AboutIntro = ({ content }) => {
   return (
-    <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-24 bg-gradient-to-b ">
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
@@ -17,12 +17,12 @@ const AboutIntro = ({ content }) => {
 
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
               Leading Healthcare in{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-600">
                 Muzaffarpur
               </span>
             </h2>
 
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-teal-600 rounded-full mb-8"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-600 rounded-full mb-8"></div>
 
             <p className="text-xl text-gray-600 leading-relaxed mb-6">
               {content.description}

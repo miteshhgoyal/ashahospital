@@ -4,9 +4,9 @@ import { Star, Quote } from "lucide-react";
 const TestimonialCard = ({ testimonial, variant = "default" }) => {
   if (variant === "compact") {
     return (
-      <div className="bg-gradient-to-r from-blue-50 via-white to-teal-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+      <div className="bg-gradient-to-r from-blue-50 via-white to-blue-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
         <div className="flex items-start gap-6">
-          <div className="w-14 h-14 bg-gradient-to-r from-blue-600 to-teal-600 rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
+          <div className="w-14 h-14 bg-gradient-to-r from-blue-600 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
             {testimonial.avatar}
           </div>
           <div className="flex-1">
@@ -37,7 +37,7 @@ const TestimonialCard = ({ testimonial, variant = "default" }) => {
 
   return (
     <div className="group  p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 relative border border-gray-100">
-      <div className="absolute -top-4 left-8 w-8 h-8 bg-gradient-to-r from-blue-600 to-teal-600 rounded-full flex items-center justify-center">
+      <div className="absolute -top-4 left-8 w-8 h-8 bg-gradient-to-r from-blue-600 to-blue-600 rounded-full flex items-center justify-center">
         <Quote className="w-4 h-4 text-white" />
       </div>
 
@@ -52,7 +52,7 @@ const TestimonialCard = ({ testimonial, variant = "default" }) => {
       </p>
 
       <div className="flex items-center">
-        <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-teal-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+        <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
           {testimonial.avatar}
         </div>
         <div>

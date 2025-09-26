@@ -5,8 +5,8 @@ const SpecialitiesStats = ({ stats }) => {
     ...stat,
     color: [
       "from-blue-500 to-indigo-600",
-      "from-rose-500 to-pink-600",
-      "from-emerald-500 to-teal-600",
+      "from-purple-500 to-blue-600",
+      "from-blue-500 to-blue-600",
       "from-amber-500 to-orange-600",
     ][index % 4],
   }));
@@ -17,7 +17,7 @@ const SpecialitiesStats = ({ stats }) => {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
             Excellence in{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-600">
               Healthcare
             </span>
           </h2>
@@ -31,7 +31,7 @@ const SpecialitiesStats = ({ stats }) => {
           {statsWithColors.map((stat, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-8 border border-gray-100 hover:shadow-xl transition-all duration-300 group text-center"
+              className="bg-gradient-to-br  rounded-3xl p-8 border border-gray-100 hover:shadow-xl transition-all duration-300 group text-center"
             >
               <div
                 className={`w-16 h-16 bg-gradient-to-r ${stat.color} rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform shadow-lg`}

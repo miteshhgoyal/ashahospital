@@ -6,14 +6,14 @@ const ExperienceStats = ({ stats }) => {
     ...stat,
     color: [
       "from-blue-500 to-indigo-600",
-      "from-rose-500 to-pink-600",
-      "from-emerald-500 to-teal-600",
+      "from-purple-500 to-blue-600",
+      "from-blue-500 to-blue-600",
       "from-amber-500 to-orange-600",
     ][index % 4],
   }));
 
   return (
-    <section className="py-24 bg-gradient-to-r from-blue-600 via-indigo-700 to-teal-600 relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-r from-blue-600 via-indigo-700 to-blue-600 relative overflow-hidden">
       <div className="absolute inset-0 bg-black/20"></div>
 
       <div className="relative container mx-auto px-4 lg:px-8 max-w-7xl text-center">

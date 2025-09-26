@@ -47,9 +47,9 @@ const ContactPage = () => {
         subtitle: "Available 24/7",
         phone: emergencyContact.phone,
         description: "For immediate medical emergencies",
-        gradient: "from-red-500 to-rose-500",
-        bgGradient: "from-red-50 to-rose-50",
-        borderColor: "border-red-100 hover:border-red-200",
+        gradient: "from-blue-500 to-purple-500",
+        bgGradient: "from-blue-50 to-purple-50",
+        borderColor: "border-blue-100 hover:border-blue-200",
       },
       {
         id: "general",
@@ -101,13 +101,13 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen ">
       {/* Optimized Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-600 via-indigo-700 to-teal-600 text-white pt-20 overflow-hidden">
+      <section className="relative bg-gradient-to-r from-blue-600 via-indigo-700 to-blue-600 text-white pt-20 overflow-hidden">
         <div className="absolute inset-0 bg-black/10" />
         <div className="absolute inset-0 bg-[url('/api/placeholder/1920/1080')] bg-cover bg-center opacity-5" />
 
         <div className="relative container mx-auto px-4 lg:px-8 max-w-7xl py-20">
           <div className="text-center max-w-4xl mx-auto">
-            <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 mb-6">
+            <div className="inline-flex items-center px-4 py-2 /10 backdrop-blur-sm rounded-full border border-white/20 mb-6">
               <Phone className="w-4 h-4 mr-2" />
               <span className="font-semibold text-sm">Get In Touch</span>
             </div>
@@ -125,7 +125,7 @@ const ContactPage = () => {
               {contactPageData.hero.features.map((feature, index) => (
                 <div
                   key={index}
-                  className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300"
+                  className="/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:/15 transition-all duration-300"
                 >
                   <feature.icon className="w-12 h-12 text-white mx-auto mb-4" />
                   <h3 className="font-bold text-white mb-2 text-lg">
@@ -182,10 +182,10 @@ const ContactPage = () => {
               ))}
 
               {/* Email & Address - Compact Design */}
-              <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
+              <div className=" rounded-xl p-6 border border-gray-200 shadow-sm">
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
-                    <Mail className="w-5 h-5 text-teal-600" />
+                    <Mail className="w-5 h-5 text-blue-600" />
                     <div>
                       <p className="font-semibold text-gray-900">
                         {contactInfo.email}
@@ -221,7 +221,7 @@ const ContactPage = () => {
               </div>
 
               {/* Social Media - Compact */}
-              <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
+              <div className=" rounded-xl p-6 border border-gray-200 shadow-sm">
                 <h4 className="font-bold text-gray-900 mb-4">Follow Us</h4>
                 <div className="flex gap-3">
                   {contactPageData.socialMedia.map((social, index) => (
@@ -240,8 +240,8 @@ const ContactPage = () => {
             {/* Contact Form & Map - Optimized */}
             <div className="lg:col-span-3 space-y-8">
               {/* Interactive Map */}
-              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-                <div className="p-4 bg-gray-50 border-b border-gray-200">
+              <div className=" rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                <div className="p-4  border-b border-gray-200">
                   <h3 className="font-bold text-gray-900 flex items-center gap-2">
                     <MapPin className="w-5 h-5 text-blue-600" />
                     Find Us
@@ -262,7 +262,7 @@ const ContactPage = () => {
               </div>
 
               {/* Optimized Contact Form */}
-              <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+              <div className=" rounded-xl shadow-sm border border-gray-200 p-6">
                 <div className="mb-6">
                   <h3 className="text-2xl font-bold text-gray-900 mb-2 flex items-center gap-2">
                     <Send className="w-6 h-6 text-blue-600" />
@@ -273,9 +273,9 @@ const ContactPage = () => {
 
                 {/* Success/Error Messages */}
                 {submitStatus === "success" && (
-                  <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center gap-2">
-                    <CheckCircle className="w-5 h-5 text-green-600" />
-                    <p className="text-green-700 font-medium">
+                  <div className="mb-6 p-4 bg-purple-50 border border-purple-200 rounded-lg flex items-center gap-2">
+                    <CheckCircle className="w-5 h-5 text-purple-600" />
+                    <p className="text-purple-700 font-medium">
                       Message sent successfully!
                     </p>
                   </div>
@@ -360,7 +360,7 @@ const ContactPage = () => {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-gradient-to-r from-blue-600 to-teal-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 shadow-sm hover:shadow-md hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                    className="w-full bg-gradient-to-r from-blue-600 to-blue-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 shadow-sm hover:shadow-md hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                   >
                     {isSubmitting ? (
                       <>
@@ -382,7 +382,7 @@ const ContactPage = () => {
       </section>
 
       {/* Services Section - Compact */}
-      <section className="py-16 bg-white">
+      <section className="py-16 ">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
@@ -394,10 +394,10 @@ const ContactPage = () => {
             {contactPageData.services.map((service, index) => (
               <div
                 key={index}
-                className="text-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-sm transition-all duration-300"
+                className="text-center p-6  rounded-xl hover: hover:shadow-sm transition-all duration-300"
               >
                 <div
-                  className={`w-12 h-12 bg-gradient-to-r from-blue-500 to-teal-600 rounded-lg flex items-center justify-center mx-auto mb-4`}
+                  className={`w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mx-auto mb-4`}
                 >
                   <service.icon className="w-6 h-6 text-white" />
                 </div>

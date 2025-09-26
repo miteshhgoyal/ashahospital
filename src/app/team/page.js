@@ -35,7 +35,7 @@ const teamDoctors = [
         qualifications: "MBBS, MS (Obs & Gynaec – AMU), DNB (Obs & Gynaec), MRCOG (UK) - Laparoscopic Surgeon & Infertility Expert",
         image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=400&auto=format&fit=crop",
         experience: "12+ Years",
-        color: "from-rose-500 to-pink-600",
+        color: "from-purple-500 to-blue-600",
         department: "Obstetrics & Gynaecology",
         description: "Dr. Rashi is a highly skilled Obstetrician & Gynaecologist in Muzaffarpur, known for her expertise in pregnancy care, infertility management, laparoscopic surgeries, and advanced women's healthcare. With strong academic training from AMU and MRCOG (UK), she is widely recognized as one of the most trusted lady gynaecologists in North Bihar.",
         expertise: [
@@ -56,7 +56,7 @@ const teamDoctors = [
         qualifications: "MBBS, MD (Medicine)",
         image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=400&auto=format&fit=crop",
         experience: "10+ Years",
-        color: "from-emerald-500 to-teal-600",
+        color: "from-blue-500 to-blue-600",
         department: "Internal Medicine",
         description: "Dr. Rakesh Raushan is a dedicated Physician and Internal Medicine Specialist at Asha Hospital, Muzaffarpur, with expertise in kidney care, gastroenterology, pulmonology, and cardiodiabetology. He is known for his strong diagnostic skills and compassionate patient care.",
         education: [
@@ -107,7 +107,7 @@ const teamDoctors = [
         qualifications: "MBBS, MD, FCCM",
         image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=400&auto=format&fit=crop",
         experience: "12+ Years",
-        color: "from-red-500 to-rose-600",
+        color: "from-blue-500 to-purple-600",
         department: "Critical Care",
         description: "Dr. Vijay Kumar is a highly experienced Critical Care Specialist dedicated to delivering advanced intensive care services with precision and compassion. With an MBBS, MD, and FCCM (Fellowship in Critical Care Medicine), he brings extensive expertise in managing life-threatening conditions and critically ill patients.",
         expertise: [
@@ -129,7 +129,7 @@ const TeamPage = () => {
             <TeamHero />
             <TeamIntro />
             <TeamStats />
-            <div className="py-24 bg-gradient-to-b from-gray-50 to-white">
+            <div className="py-24 bg-gradient-to-b ">
                 <div className="container mx-auto px-4 lg:px-8 max-w-7xl space-y-24">
                     {teamDoctors.map((doctor, index) => (
                         <DoctorProfile

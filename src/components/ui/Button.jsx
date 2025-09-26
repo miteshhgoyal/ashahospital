@@ -31,13 +31,13 @@ const Button = React.forwardRef(
         "bg-gradient-to-r from-primary to-[#B12424] text-white hover:from-[#E62E00] hover:to-[#9A1F1F] shadow-lg hover:shadow-xl hover:shadow-primary/30",
 
       success:
-        "bg-green-600 text-white border border-green-600 hover:bg-green-700 hover:border-green-700 shadow-lg hover:shadow-xl hover:shadow-green-600/25",
+        "bg-purple-600 text-white border border-purple-600 hover:bg-purple-700 hover:border-purple-700 shadow-lg hover:shadow-xl hover:shadow-purple-600/25",
 
       warning:
         "bg-yellow-500 text-black border border-yellow-500 hover:bg-yellow-600 hover:border-yellow-600 shadow-lg hover:shadow-xl hover:shadow-yellow-500/25",
 
       danger:
-        "bg-red-600 text-white border border-red-600 hover:bg-red-700 hover:border-red-700 shadow-lg hover:shadow-xl hover:shadow-red-600/25",
+        "bg-blue-600 text-white border border-blue-600 hover:bg-blue-700 hover:border-blue-700 shadow-lg hover:shadow-xl hover:shadow-blue-600/25",
     };
 
     // Size styles

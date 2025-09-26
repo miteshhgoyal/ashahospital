@@ -4,7 +4,7 @@ import SpecialtyCard from "@/components/SpecialtyCard";
 
 const SpecialitiesOverview = ({ specialties }) => {
   return (
-    <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-24 bg-gradient-to-b ">
       <div className="container mx-auto px-4 lg:px-8 max-w-8xl">
         <SectionHeader
           badge="Our Specialities"

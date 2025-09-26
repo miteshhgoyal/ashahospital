@@ -10,19 +10,19 @@ const WhyChooseUs = ({ features }) => {
       title: "24/7 Pharmacy Services",
       description: "Easy access to medicines",
       icon: Microscope,
-      color: "from-blue-600 to-teal-600",
+      color: "from-blue-600 to-blue-600",
     },
     {
       title: "Emergency Ambulance",
       description: "Critical care support",
       icon: Ambulance,
-      color: "from-blue-600 to-teal-600",
+      color: "from-blue-600 to-blue-600",
     },
     {
       title: "Skilled Medical Staff",
       description: "Personalized treatment",
       icon: CheckCircle,
-      color: "from-blue-600 to-teal-600",
+      color: "from-blue-600 to-blue-600",
     },
   ];
 
@@ -44,10 +44,10 @@ const WhyChooseUs = ({ features }) => {
         </div>
 
         {/* Additional Services */}
-        <div className="bg-gradient-to-r from-blue-50 via-white to-teal-50 rounded-3xl p-12 border border-gray-100">
+        <div className="bg-gradient-to-r from-blue-50 via-white to-blue-50 rounded-3xl p-12 border border-gray-100">
           <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
             Complete Medical Services{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-600">
               Under One Roof
             </span>
           </h3>

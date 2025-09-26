@@ -9,7 +9,7 @@ const TestimonialsStats = ({ stats }) => {
       label: "Happy Patients",
       description: "Satisfied with our care",
       icon: Heart,
-      color: "from-rose-500 to-pink-600",
+      color: "from-purple-500 to-blue-600",
     },
     {
       number: "98%",
@@ -30,7 +30,7 @@ const TestimonialsStats = ({ stats }) => {
       label: "Years of Trust",
       description: "Building patient relationships",
       icon: Award,
-      color: "from-emerald-500 to-teal-600",
+      color: "from-blue-500 to-blue-600",
     },
   ];
 
@@ -40,7 +40,7 @@ const TestimonialsStats = ({ stats }) => {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
             Patient{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-pink-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">
               Satisfaction
             </span>
           </h2>
@@ -54,7 +54,7 @@ const TestimonialsStats = ({ stats }) => {
           {testimonialsStats.map((stat, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-8 border border-gray-100 hover:shadow-xl transition-all duration-300 group text-center"
+              className="bg-gradient-to-br  rounded-3xl p-8 border border-gray-100 hover:shadow-xl transition-all duration-300 group text-center"
             >
               <div
                 className={`w-16 h-16 bg-gradient-to-r ${stat.color} rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform shadow-lg`}

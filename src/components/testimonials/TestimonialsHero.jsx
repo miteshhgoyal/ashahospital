@@ -16,16 +16,17 @@ const TestimonialsHero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
           <div className="space-y-8">
-            <div className="inline-flex items-center px-4 py-2 bg-rose-50 rounded-full border border-rose-100">
-              <MessageCircle className="w-4 h-4 mr-2 text-rose-600" />
-              <span className="font-semibold text-sm text-rose-700">
+            <div className="inline-flex items-center px-4 py-2 bg-purple-50 rounded-full border border-purple-100">
+              <MessageCircle className="w-4 h-4 mr-2 text-purple-600" />
+              <span className="font-semibold text-sm text-purple-700">
                 Patient Testimonials
               </span>
             </div>
 
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                Stories of <span className="text-rose-600">Hope & Healing</span>
+                Stories of{" "}
+                <span className="text-purple-600">Hope & Healing</span>
               </h1>
 
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
@@ -37,8 +38,8 @@ const TestimonialsHero = () => {
 
             {/* Key Stats */}
             <div className="grid grid-cols-3 gap-6">
-              <div className="text-center bg-rose-50 p-6 rounded-xl">
-                <div className="text-3xl font-bold text-rose-600 mb-1">
+              <div className="text-center bg-purple-50 p-6 rounded-xl">
+                <div className="text-3xl font-bold text-purple-600 mb-1">
                   50,000+
                 </div>
                 <div className="text-sm text-gray-600">Happy Patients</div>
@@ -54,8 +55,8 @@ const TestimonialsHero = () => {
                 </div>
                 <div className="text-sm text-gray-600">5-Star Reviews</div>
               </div>
-              <div className="text-center bg-green-50 p-6 rounded-xl">
-                <div className="text-3xl font-bold text-green-600 mb-1">
+              <div className="text-center bg-purple-50 p-6 rounded-xl">
+                <div className="text-3xl font-bold text-purple-600 mb-1">
                   98%
                 </div>
                 <div className="text-sm text-gray-600">Satisfaction Rate</div>
@@ -65,8 +66,8 @@ const TestimonialsHero = () => {
             {/* Patient Feedback Highlights */}
             <div className=" p-6 rounded-xl">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-rose-100 rounded-full flex items-center justify-center">
-                  <Heart className="w-6 h-6 text-rose-600" />
+                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                  <Heart className="w-6 h-6 text-purple-600" />
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-2">

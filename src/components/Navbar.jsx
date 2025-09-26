@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       {/* Top Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-teal-600 text-white py-2">
+      <div className="bg-gradient-to-r from-blue-600 to-blue-600 text-white py-2">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
           <div className="flex flex-col sm:flex-row justify-between items-center text-sm">
             <div className="flex items-center gap-6 mb-2 sm:mb-0">
@@ -36,7 +36,7 @@ const Navbar = () => {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-teal-600 rounded-xl flex items-center justify-center shadow-lg">
+              <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-600 rounded-xl flex items-center justify-center shadow-lg">
                 <Heart className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -107,7 +107,7 @@ const Navbar = () => {
               {/* Book Appointment Button */}
               <button
                 onClick={() => setIsBookingModalOpen(true)}
-                className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-6 py-2.5 rounded-lg hover:shadow-lg transition-all duration-300 font-medium flex items-center gap-2 hover:scale-105"
+                className="bg-gradient-to-r from-blue-600 to-blue-600 text-white px-6 py-2.5 rounded-lg hover:shadow-lg transition-all duration-300 font-medium flex items-center gap-2 hover:scale-105"
               >
                 <Calendar className="w-4 h-4" />
                 <span className="hidden sm:inline">Book Appointment</span>

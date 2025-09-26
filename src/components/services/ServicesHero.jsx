@@ -36,16 +36,16 @@ const ServicesHero = () => {
 
           {/* Content */}
           <div className="space-y-8 order-1 lg:order-2">
-            <div className="inline-flex items-center px-4 py-2 bg-teal-50 rounded-full border border-teal-100">
-              <Stethoscope className="w-4 h-4 mr-2 text-teal-600" />
-              <span className="font-semibold text-sm text-teal-700">
+            <div className="inline-flex items-center px-4 py-2 bg-blue-50 rounded-full border border-blue-100">
+              <Stethoscope className="w-4 h-4 mr-2 text-blue-600" />
+              <span className="font-semibold text-sm text-blue-700">
                 Our Medical Services
               </span>
             </div>
 
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                Comprehensive <span className="text-teal-600">Healthcare</span>{" "}
+                Comprehensive <span className="text-blue-600">Healthcare</span>{" "}
                 Services
               </h1>
 
@@ -76,8 +76,8 @@ const ServicesHero = () => {
                   key={index}
                   className="flex items-start gap-3 p-4  rounded-xl border border-gray-100"
                 >
-                  <div className="w-10 h-10 bg-teal-50 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <item.icon className="w-5 h-5 text-teal-600" />
+                  <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <item.icon className="w-5 h-5 text-blue-600" />
                   </div>
                   <div>
                     <div className="font-bold text-gray-900 text-sm">

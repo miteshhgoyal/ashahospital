@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const TeamHero = () => {
   return (
-    <section className="bg-gradient-to-b from-gray-50 to-white pt-24 pb-16">
+    <section className="bg-gradient-to-b  pt-24 pb-16">
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Content */}

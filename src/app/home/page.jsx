@@ -36,10 +36,7 @@ const HomePage = () => {
       <SpecialitiesOverview specialties={specialties} />
 
       {/* About Section */}
-      <section
-        id="about"
-        className="py-24 bg-gradient-to-b from-gray-50 to-white"
-      >
+      <section id="about" className="py-24 bg-gradient-to-b ">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             {/* Content */}
@@ -50,12 +47,12 @@ const HomePage = () => {
                 </div>
                 <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                   About Us –{" "}
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-600">
                     Asha Hospital
                   </span>
                   , Muzaffarpur
                 </h2>
-                <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-teal-600 rounded-full mb-8"></div>
+                <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-600 rounded-full mb-8"></div>
               </div>
 
               <p className="text-xl text-gray-600 leading-relaxed">
@@ -72,7 +69,7 @@ const HomePage = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 pt-4">
-                <button className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2">
+                <button className="bg-gradient-to-r from-blue-600 to-blue-600 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2">
                   More Info <ArrowRight className="w-5 h-5" />
                 </button>
               </div>
@@ -146,10 +143,7 @@ const HomePage = () => {
       </section>
 
       {/* Services */}
-      <section
-        id="services"
-        className="py-24 bg-gradient-to-b from-gray-50 to-white"
-      >
+      <section id="services" className="py-24 bg-gradient-to-b ">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
           <SectionHeader
             badge="Our Services"
@@ -161,7 +155,7 @@ const HomePage = () => {
           <div className="mb-16">
             <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
               EXPLORE OUR{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-600">
                 MEDICAL SPECIALITIES
               </span>
             </h3>
@@ -193,10 +187,7 @@ const HomePage = () => {
       </section>
 
       {/* Testimonials */}
-      <section
-        id="testimonials"
-        className="py-24 bg-gradient-to-b from-gray-50 to-white"
-      >
+      <section id="testimonials" className="py-24 bg-gradient-to-b ">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
           <SectionHeader
             badge="Patient Testimonials"

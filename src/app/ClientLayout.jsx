@@ -26,7 +26,7 @@ export default function ClientLayout({ children }) {
   return (
     <>
       <div className="bg-background text-foreground overflow-x-hidden min-h-screen">
-        {/* <BgEffect /> */}
+        <BgEffect />
 
         <div className="relative z-50 bg-transparent overflow-x-hidden">
           {!hideLayout && <Navbar />}

@@ -12,7 +12,7 @@ const TeamIntro = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-24 bg-gradient-to-b ">
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2  text-blue-600 rounded-full font-semibold text-sm mb-6">
@@ -20,11 +20,11 @@ const TeamIntro = () => {
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
             Advanced Medical Care with{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-600">
               Expert Team
             </span>
           </h2>
-          <div className="w-32 h-1 bg-gradient-to-r from-blue-600 to-teal-600 rounded-full mx-auto mb-8" />
+          <div className="w-32 h-1 bg-gradient-to-r from-blue-600 to-blue-600 rounded-full mx-auto mb-8" />
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             Our team of experienced doctors, supported by modern facilities,
             ensures quality treatment for every patient with a focus on
@@ -50,7 +50,7 @@ const TeamIntro = () => {
                 ))}
               </div>
             </div>
-            <div className="bg-gradient-to-br from-blue-50 to-teal-50 rounded-2xl p-8">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-50 rounded-2xl p-8">
               <h4 className="text-xl font-bold text-gray-900 mb-4">
                 Our Commitment
               </h4>

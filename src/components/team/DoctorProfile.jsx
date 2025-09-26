@@ -95,7 +95,7 @@ const DoctorProfile = ({ doctor, index, isReversed = false }) => {
                 <div className="space-y-2">
                   {doctor.education.map((edu, idx) => (
                     <div key={idx} className="flex items-center gap-2">
-                      <ChevronRight className="w-4 h-4 text-teal-600 flex-shrink-0" />
+                      <ChevronRight className="w-4 h-4 text-blue-600 flex-shrink-0" />
                       <span className="text-gray-700 text-sm">{edu}</span>
                     </div>
                   ))}
@@ -104,7 +104,7 @@ const DoctorProfile = ({ doctor, index, isReversed = false }) => {
             )}
 
             {/* Philosophy */}
-            <div className="bg-gradient-to-br from-blue-50 to-teal-50 rounded-2xl p-6 border border-blue-100">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-50 rounded-2xl p-6 border border-blue-100">
               <h3 className="text-lg font-bold text-gray-900 mb-3">
                 Philosophy & Approach
               </h3>

@@ -4,11 +4,7 @@ import Image from "next/image";
 
 const ServiceDetail = ({ service, index, isReversed = false }) => {
   return (
-    <section
-      className={`py-24 ${
-        index % 2 === 0 ? "" : "bg-gradient-to-b from-gray-50 to-white"
-      }`}
-    >
+    <section className={`py-24 ${index % 2 === 0 ? "" : "bg-gradient-to-b "}`}>
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
         <div
           className={`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center ${
@@ -165,9 +161,9 @@ const ServiceDetail = ({ service, index, isReversed = false }) => {
 
             {/* Commitment */}
             {service.commitment && (
-              <div className="bg-gradient-to-r from-blue-50 to-teal-50 rounded-2xl p-6 border border-blue-100">
+              <div className="bg-gradient-to-r from-blue-50 to-blue-50 rounded-2xl p-6 border border-blue-100">
                 <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                  <Users className="w-5 h-5 text-teal-600" />
+                  <Users className="w-5 h-5 text-blue-600" />
                   Our Commitment
                 </h3>
                 <p className="text-gray-700 leading-relaxed italic">

@@ -25,7 +25,7 @@ export const heroSlides = [
         subtitle: "Multi Speciality Excellence for a Happy and Healthy Lifestyle",
         image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=1200&auto=format&fit=crop",
         stats: { patients: "50,000+", doctors: "25+", experience: "15+" },
-        gradient: "from-teal-600 via-cyan-700 to-blue-800",
+        gradient: "from-blue-600 via-cyan-700 to-blue-800",
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ export const heroSlides = [
         subtitle: "Multi Speciality Hospital - We are the guardian of your good health",
         image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=1200&auto=format&fit=crop",
         stats: { patients: "50,000+", doctors: "25+", experience: "15+" },
-        gradient: "from-emerald-600 via-teal-700 to-cyan-800",
+        gradient: "from-blue-600 via-blue-700 to-cyan-800",
     },
 ];
 
@@ -69,15 +69,15 @@ export const specialties = [
     {
         name: "Obs-Gynaec",
         icon: Heart,
-        color: "from-rose-500 to-pink-600",
-        bgColor: "bg-rose-50 hover:bg-rose-100",
+        color: "from-purple-500 to-blue-600",
+        bgColor: "bg-purple-50 hover:bg-purple-100",
         description: "Comprehensive women's health and maternity services"
     },
     {
         name: "Ortho",
         icon: UserCheck,
-        color: "from-emerald-500 to-green-600",
-        bgColor: "bg-emerald-50 hover:bg-emerald-100",
+        color: "from-blue-500 to-purple-600",
+        bgColor: "bg-blue-50 hover:bg-blue-100",
         description: "Bone, joint treatments and sports medicine"
     },
     {
@@ -90,8 +90,8 @@ export const specialties = [
     {
         name: "Critical Care",
         icon: Activity,
-        color: "from-red-500 to-rose-600",
-        bgColor: "bg-red-50 hover:bg-red-100",
+        color: "from-blue-500 to-purple-600",
+        bgColor: "bg-blue-50 hover:bg-blue-100",
         description: "24/7 intensive care and life-saving treatments"
     },
     {
@@ -111,7 +111,7 @@ export const specialties = [
     {
         name: "Ophthalmologist",
         icon: Eye,
-        color: "from-cyan-500 to-teal-600",
+        color: "from-cyan-500 to-blue-600",
         bgColor: "bg-cyan-50 hover:bg-cyan-100",
         description: "Complete eye care and vision treatments"
     },
@@ -129,19 +129,19 @@ export const features = [
         title: "IPD Facilities",
         icon: Heart,
         description: "Advanced inpatient care with modern amenities",
-        color: "from-rose-500 to-pink-600",
+        color: "from-purple-500 to-blue-600",
     },
     {
         title: "Pathology Lab",
         icon: Microscope,
         description: "State-of-the-art diagnostic services with quick results",
-        color: "from-emerald-500 to-teal-600",
+        color: "from-blue-500 to-blue-600",
     },
     {
         title: "Emergency Service",
         icon: Activity,
         description: "24/7 emergency medical care with rapid response",
-        color: "from-red-500 to-orange-600",
+        color: "from-blue-500 to-orange-600",
     },
     {
         title: "Best Surgeons",
@@ -159,13 +159,13 @@ export const features = [
         title: "Gynae Care",
         icon: Heart,
         description: "Comprehensive women's health and maternity services",
-        color: "from-pink-500 to-rose-600",
+        color: "from-blue-500 to-purple-600",
     },
     {
         title: "Ortho Care",
         icon: Shield,
         description: "Bone, joint treatments and sports medicine",
-        color: "from-green-500 to-emerald-600",
+        color: "from-purple-500 to-blue-600",
     },
 ];
 
@@ -186,13 +186,13 @@ export const services = [
     {
         title: "Gynae Care",
         icon: Heart,
-        color: "from-rose-500 to-pink-600",
+        color: "from-purple-500 to-blue-600",
         description: "Comprehensive women's health and maternity services"
     },
     {
         title: "Obstetricians Care",
         icon: Baby,
-        color: "from-emerald-500 to-green-600",
+        color: "from-blue-500 to-purple-600",
         description: "Safe motherhood and pregnancy care"
     },
     {
@@ -204,13 +204,13 @@ export const services = [
     {
         title: "Critical Care",
         icon: Activity,
-        color: "from-red-500 to-rose-600",
+        color: "from-blue-500 to-purple-600",
         description: "24/7 intensive care and life-saving treatments"
     },
     {
         title: "Pediatrics Care",
         icon: Baby,
-        color: "from-cyan-500 to-teal-600",
+        color: "from-cyan-500 to-blue-600",
         description: "Specialized care for children and infants"
     },
     {
@@ -242,7 +242,7 @@ export const doctors = [
         qualifications: "MBBS, MS (Obs & Gynaec – AMU), DNB (Obs & Gynaec), MRCOG (UK) - Laparoscopic Surgeon & Infertility Expert",
         image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=400&auto=format&fit=crop",
         experience: "12+ Years",
-        color: "from-rose-500 to-pink-600",
+        color: "from-purple-500 to-blue-600",
         department: "Obstetrics & Gynaecology"
     },
     {
@@ -253,7 +253,7 @@ export const doctors = [
         qualifications: "MBBS, MD (Medicine)",
         image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=400&auto=format&fit=crop",
         experience: "10+ Years",
-        color: "from-emerald-500 to-teal-600",
+        color: "from-blue-500 to-blue-600",
         department: "Internal Medicine"
     },
     {
@@ -472,8 +472,8 @@ export const detailedSpecialities = [
         title: "Obstetrician, Gynaecologist & Infertility",
         subtitle: "Comprehensive care for women's health at every stage of life",
         icon: Heart,
-        color: "from-rose-500 to-pink-600",
-        bgColor: "bg-rose-50",
+        color: "from-purple-500 to-blue-600",
+        bgColor: "bg-purple-50",
         image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, we provide comprehensive care for women's health at every stage of life. Our highly experienced Obstetricians, Gynaecologists, and Infertility Specialists are dedicated to ensuring safe motherhood, effective treatment for reproductive health issues, and personalized fertility solutions.",
         whyChoose: [
@@ -496,8 +496,8 @@ export const detailedSpecialities = [
         title: "Physician & Internal Medicine",
         subtitle: "Comprehensive care for adults with chronic disease management",
         icon: Stethoscope,
-        color: "from-emerald-500 to-teal-600",
-        bgColor: "bg-emerald-50",
+        color: "from-blue-500 to-blue-600",
+        bgColor: "bg-blue-50",
         image: "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, our Physician & Internal Medicine specialists provide comprehensive care for adults, focusing on the prevention, diagnosis, and treatment of a wide range of medical conditions. We specialize in managing chronic illnesses, complex health problems, and lifestyle-related diseases with a patient-centric and evidence-based approach.",
         whyChoose: [
@@ -590,8 +590,8 @@ export const detailedServices = [
         title: "Obstetricians & Gynaecologists Services",
         subtitle: "Comprehensive obstetrics and gynaecology services for women's health",
         icon: Heart,
-        color: "from-rose-500 to-pink-600",
-        bgColor: "bg-rose-50",
+        color: "from-purple-500 to-blue-600",
+        bgColor: "bg-purple-50",
         image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, we offer comprehensive obstetrics and gynaecology services designed to support women's health at every stage of life. Our team of experienced obstetricians and gynaecologists is dedicated to providing safe, compassionate, and personalized care for women—from adolescence to motherhood and beyond.",
         whyChoose: [
@@ -662,8 +662,8 @@ export const detailedServices = [
         title: "Internal Medicine Services",
         subtitle: "Comprehensive, preventive, and long-term healthcare for adults",
         icon: Stethoscope,
-        color: "from-emerald-500 to-teal-600",
-        bgColor: "bg-emerald-50",
+        color: "from-blue-500 to-blue-600",
+        bgColor: "bg-blue-50",
         image: "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, our Internal Medicine Department is the first point of contact for patients seeking comprehensive, preventive, and long-term healthcare. Our team of expert physicians and internal medicine specialists is dedicated to diagnosing, treating, and managing a wide range of medical conditions with a patient-first approach.",
         whyChoose: [
@@ -697,8 +697,8 @@ export const detailedServices = [
         title: "Critical Care Services",
         subtitle: "Round-the-clock, advanced medical support for life-threatening conditions",
         icon: Activity,
-        color: "from-red-500 to-rose-600",
-        bgColor: "bg-red-50",
+        color: "from-blue-500 to-purple-600",
+        bgColor: "bg-blue-50",
         image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, our Critical Care Unit (ICU) provides round-the-clock, advanced medical support for patients with life-threatening conditions. Our team of expert intensivists, critical care specialists, nurses, and paramedics is dedicated to delivering immediate, specialized care with compassion and precision.",
         whyChoose: [
@@ -796,7 +796,7 @@ export const detailedServices = [
         title: "Ophthalmology (Eye Care) Services",
         subtitle: "Preserving and restoring vision through advanced diagnostic and surgical eye care",
         icon: Eye,
-        color: "from-cyan-500 to-teal-600",
+        color: "from-cyan-500 to-blue-600",
         bgColor: "bg-cyan-50",
         image: "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, our Ophthalmology Department is dedicated to preserving and restoring vision through advanced diagnostic and surgical eye care. Our team of highly skilled ophthalmologists and eye specialists provides comprehensive treatment for a wide range of eye conditions, ensuring healthy vision for patients of all ages.",
@@ -848,9 +848,9 @@ export const contactPageData = {
     },
     socialMedia: [
         { name: "Facebook", icon: Facebook, href: "#facebook", color: "from-blue-500 to-blue-600" },
-        { name: "Instagram", icon: Instagram, href: "#instagram", color: "from-pink-500 to-rose-600" },
+        { name: "Instagram", icon: Instagram, href: "#instagram", color: "from-blue-500 to-purple-600" },
         { name: "Twitter", icon: Twitter, href: "#twitter", color: "from-sky-500 to-blue-600" },
-        { name: "YouTube", icon: Youtube, href: "#youtube", color: "from-red-500 to-red-600" },
+        { name: "YouTube", icon: Youtube, href: "#youtube", color: "from-blue-500 to-blue-600" },
     ],
     services: [
         { icon: Calendar, title: "Online Appointments", desc: "Book your appointment online for convenience" },

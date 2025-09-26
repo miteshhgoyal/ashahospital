@@ -4,11 +4,7 @@ import Image from "next/image";
 
 const SpecialityDetail = ({ specialty, index, isReversed = false }) => {
   return (
-    <section
-      className={`py-24 ${
-        index % 2 === 0 ? "" : "bg-gradient-to-b from-gray-50 to-white"
-      }`}
-    >
+    <section className={`py-24 ${index % 2 === 0 ? "" : "bg-gradient-to-b "}`}>
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
         <div
           className={`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center ${
@@ -153,15 +149,15 @@ const SpecialityDetail = ({ specialty, index, isReversed = false }) => {
 
             {/* Treatment Benefits */}
             {specialty.treatmentBenefits && (
-              <div className="bg-gradient-to-r from-blue-50 to-teal-50 rounded-2xl p-6 border border-blue-100">
+              <div className="bg-gradient-to-r from-blue-50 to-blue-50 rounded-2xl p-6 border border-blue-100">
                 <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                  <Clock className="w-5 h-5 text-teal-600" />
+                  <Clock className="w-5 h-5 text-blue-600" />
                   Treatment Benefits
                 </h3>
                 <div className="grid grid-cols-2 gap-4">
                   {specialty.treatmentBenefits.map((benefit, idx) => (
                     <div key={idx} className="flex items-center gap-2">
-                      <CheckCircle className="w-4 h-4 text-teal-600 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-blue-600 flex-shrink-0" />
                       <span className="text-gray-700 text-sm">{benefit}</span>
                     </div>
                   ))}

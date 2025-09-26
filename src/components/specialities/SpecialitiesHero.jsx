@@ -8,15 +8,15 @@ const SpecialitiesHero = () => {
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center px-4 py-2 bg-emerald-50 rounded-full border border-emerald-100 mb-6">
-            <Brain className="w-4 h-4 mr-2 text-emerald-600" />
-            <span className="font-semibold text-sm text-emerald-700">
+          <div className="inline-flex items-center px-4 py-2 bg-blue-50 rounded-full border border-blue-100 mb-6">
+            <Brain className="w-4 h-4 mr-2 text-blue-600" />
+            <span className="font-semibold text-sm text-blue-700">
               Our Medical Specialities
             </span>
           </div>
 
           <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-            Advanced <span className="text-emerald-600">Medical Care</span>
+            Advanced <span className="text-blue-600">Medical Care</span>
           </h1>
 
           <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
@@ -35,10 +35,10 @@ const SpecialitiesHero = () => {
             ].map((item, index) => (
               <div
                 key={index}
-                className="flex items-center gap-4 p-6  rounded-xl hover:bg-emerald-50 transition-colors group"
+                className="flex items-center gap-4 p-6  rounded-xl hover:bg-blue-50 transition-colors group"
               >
-                <div className="w-12 h-12  rounded-xl flex items-center justify-center group-hover:bg-emerald-100 transition-colors">
-                  <item.icon className="w-6 h-6 text-emerald-600" />
+                <div className="w-12 h-12  rounded-xl flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                  <item.icon className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
                   <div className="font-bold text-gray-900">{item.title}</div>
@@ -69,10 +69,10 @@ const SpecialitiesHero = () => {
             ].map((item, index) => (
               <div
                 key={index}
-                className="flex items-center gap-4 p-6  rounded-xl hover:bg-emerald-50 transition-colors group"
+                className="flex items-center gap-4 p-6  rounded-xl hover:bg-blue-50 transition-colors group"
               >
-                <div className="w-12 h-12  rounded-xl flex items-center justify-center group-hover:bg-emerald-100 transition-colors">
-                  <item.icon className="w-6 h-6 text-emerald-600" />
+                <div className="w-12 h-12  rounded-xl flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                  <item.icon className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
                   <div className="font-bold text-gray-900">{item.title}</div>
