@@ -111,7 +111,7 @@ const BookingModal = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
-      <div className=" rounded-3xl shadow-xl w-full max-w-2xl max-h-[90vh] overflow-hidden">
+      <div className="bg-white rounded-3xl shadow-xl w-full max-w-xl h-[92vh] overflow-hidden">
         {/* Header */}
         <div className="flex items-center justify-between p-6 bg-gradient-to-br from-medical to-health">
           <div className="flex items-center gap-3">
@@ -140,7 +140,7 @@ const BookingModal = ({ isOpen, onClose }) => {
             // Success State
             <div className="text-center py-8">
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Calendar className="w-8 h-8 text-purple-600" />
+                <Calendar className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 Booking Confirmed!

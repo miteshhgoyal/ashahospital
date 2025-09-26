@@ -42,7 +42,7 @@ const HomePage = () => {
             {/* Content */}
             <div className="space-y-8">
               <div>
-                <div className="inline-flex items-center px-4 py-2  text-blue-600 rounded-full font-semibold text-sm mb-6">
+                <div className="inline-flex items-center px-4 py-2 bg-white/40 text-blue-600 rounded-full font-semibold text-sm mb-6">
                   About Asha Hospital
                 </div>
                 <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -69,9 +69,12 @@ const HomePage = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 pt-4">
-                <button className="bg-gradient-to-r from-blue-600 to-blue-600 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2">
+                <a
+                  href="/about"
+                  className="bg-gradient-to-r from-blue-600 to-blue-600 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2"
+                >
                   More Info <ArrowRight className="w-5 h-5" />
-                </button>
+                </a>
               </div>
             </div>
 
@@ -153,12 +156,6 @@ const HomePage = () => {
           />
 
           <div className="mb-16">
-            <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              EXPLORE OUR{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-600">
-                MEDICAL SPECIALITIES
-              </span>
-            </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {services.map((service, index) => (
                 <ServiceCard key={index} service={service} index={index} />
@@ -237,14 +234,9 @@ const HomePage = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center max-w-2xl mx-auto mb-16">
-            <button className="group  text-gray-900 px-10 py-5 rounded-xl font-bold text-lg hover: transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 flex items-center justify-center gap-3">
+            <button className="group bg-white text-gray-900 px-10 py-5 rounded-xl font-bold text-lg hover: transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 flex items-center justify-center gap-3">
               <Phone className="w-6 h-6" />
-              Call Now: +91-98765-43210
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
-            <button className="group border-2 border-white text-white px-10 py-5 rounded-xl font-bold text-lg hover: hover:text-gray-900 transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105 flex items-center justify-center gap-3">
-              <Calendar className="w-6 h-6" />
-              Book Online
+              Call Now
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>

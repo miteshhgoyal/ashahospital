@@ -22,7 +22,7 @@ const AboutHero = ({ content, stats }) => {
 
           {/* Content */}
           <div className="space-y-8">
-            <div className="inline-flex items-center px-4 py-2  rounded-full border border-blue-100">
+            <div className="inline-flex items-center px-4 py-2 bg-blue-50 rounded-full border border-blue-100">
               <Heart className="w-4 h-4 mr-2 text-blue-600" />
               <span className="font-semibold text-sm text-blue-700">
                 About Asha Hospital

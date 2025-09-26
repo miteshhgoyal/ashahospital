@@ -46,7 +46,7 @@ make components of that page each section.
 only of section parts.
 replace the icons with lucide - react icon library icons.
 keep whole ui as it. just break in components, optimize with using objects of data and passing them and use lucide-react icons
-don't remove minor details etc designigs etc in banners too or in any section - keep all stuff as professional as is given. for primary-orange-dark use orange-700 and instead of asha-hospital-orange or asha-hospital-primary use primary-orange colors. this sort of.
+don't remove minor details etc designigs etc in banners too or in any section - keep all stuff as professional as is given. for primary-purple-dark use orange-700 and instead of asha-hospital-purple or asha-hospital-primary use primary-purple colors. this sort of.
 leave the hero section, banner, background section and cta section.
 they are already setup by me.
 

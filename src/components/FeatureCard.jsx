@@ -1,7 +1,7 @@
 // components/FeatureCard.jsx
 const FeatureCard = ({ feature, index }) => {
   return (
-    <div className="group  p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 hover:border-blue-200 relative overflow-hidden">
+    <div className="group bg-white/30 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 hover:border-blue-200 relative overflow-hidden">
       <div
         className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r opacity-0 group-hover:opacity-100 transition-opacity"
         style={{

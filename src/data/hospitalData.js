@@ -63,56 +63,56 @@ export const specialties = [
         name: "Neuro",
         icon: Brain,
         color: "from-blue-500 to-blue-600",
-        bgColor: " hover:bg-blue-100",
+        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
         description: "Advanced neurological treatments and brain surgery"
     },
     {
         name: "Obs-Gynaec",
         icon: Heart,
         color: "from-purple-500 to-blue-600",
-        bgColor: "bg-purple-50 hover:bg-purple-100",
+        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
         description: "Comprehensive women's health and maternity services"
     },
     {
         name: "Ortho",
         icon: UserCheck,
         color: "from-blue-500 to-purple-600",
-        bgColor: "bg-blue-50 hover:bg-blue-100",
+        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
         description: "Bone, joint treatments and sports medicine"
     },
     {
         name: "Medicine",
         icon: Stethoscope,
         color: "from-violet-500 to-purple-600",
-        bgColor: "bg-violet-50 hover:bg-violet-100",
+        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
         description: "Internal medicine and general healthcare"
     },
     {
         name: "Critical Care",
         icon: Activity,
         color: "from-blue-500 to-purple-600",
-        bgColor: "bg-blue-50 hover:bg-blue-100",
+        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
         description: "24/7 intensive care and life-saving treatments"
     },
     {
         name: "Pediatrics",
         icon: Baby,
-        color: "from-amber-500 to-orange-600",
-        bgColor: "bg-amber-50 hover:bg-amber-100",
+        color: "from-blue-500 to-purple-600",
+        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
         description: "Specialized care for children and infants"
     },
     {
         name: "ENT",
         icon: Users,
         color: "from-indigo-500 to-blue-600",
-        bgColor: "bg-indigo-50 hover:bg-indigo-100",
+        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
         description: "Ear, nose, and throat treatments"
     },
     {
         name: "Ophthalmologist",
         icon: Eye,
         color: "from-cyan-500 to-blue-600",
-        bgColor: "bg-cyan-50 hover:bg-cyan-100",
+        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
         description: "Complete eye care and vision treatments"
     },
 ];
@@ -141,7 +141,7 @@ export const features = [
         title: "Emergency Service",
         icon: Activity,
         description: "24/7 emergency medical care with rapid response",
-        color: "from-blue-500 to-orange-600",
+        color: "from-blue-500 to-purple-600",
     },
     {
         title: "Best Surgeons",
@@ -198,7 +198,7 @@ export const services = [
     {
         title: "Ortho Care",
         icon: Shield,
-        color: "from-amber-500 to-orange-600",
+        color: "from-blue-500 to-purple-600",
         description: "Bone, joint treatments and sports medicine"
     },
     {
@@ -264,7 +264,7 @@ export const doctors = [
         qualifications: "MBBS, D. Ortho",
         image: "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?q=80&w=400&auto=format&fit=crop",
         experience: "8+ Years",
-        color: "from-amber-500 to-orange-600",
+        color: "from-blue-500 to-purple-600",
         department: "Orthopedics"
     },
 ];
@@ -524,8 +524,8 @@ export const detailedSpecialities = [
         title: "Orthopedic, Joint Replacement & Arthroscopic Surgeon",
         subtitle: "Advanced treatment for bone, joint, and musculoskeletal conditions",
         icon: Shield,
-        color: "from-amber-500 to-orange-600",
-        bgColor: "bg-amber-50",
+        color: "from-blue-500 to-purple-600",
+        bgColor: "bg-blue-50",
         image: "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, our Orthopedic, Joint Replacement & Arthroscopic Surgery specialists provide advanced treatment for bone, joint, and musculoskeletal conditions. With world-class expertise, cutting-edge technology, and patient-focused care, we help restore mobility, reduce pain, and improve quality of life.",
         whyChoose: [
@@ -562,7 +562,7 @@ export const detailedServices = [
         subtitle: "Advanced care for complex brain, spine, and nervous system disorders",
         icon: Brain,
         color: "from-blue-500 to-indigo-600",
-        bgColor: "",
+
         image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, our Neuro Services Department is dedicated to providing advanced care for complex brain, spine, and nervous system disorders. With a team of highly experienced neurologists, neurosurgeons, and neuro-rehabilitation specialists, we combine medical expertise with cutting-edge technology to deliver accurate diagnosis, effective treatment, and holistic recovery.",
         whyChoose: [
@@ -591,7 +591,7 @@ export const detailedServices = [
         subtitle: "Comprehensive obstetrics and gynaecology services for women's health",
         icon: Heart,
         color: "from-purple-500 to-blue-600",
-        bgColor: "bg-purple-50",
+
         image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, we offer comprehensive obstetrics and gynaecology services designed to support women's health at every stage of life. Our team of experienced obstetricians and gynaecologists is dedicated to providing safe, compassionate, and personalized care for women—from adolescence to motherhood and beyond.",
         whyChoose: [
@@ -627,8 +627,8 @@ export const detailedServices = [
         title: "Orthopaedic Services",
         subtitle: "Advanced care for bones, joints, muscles, ligaments, and spine conditions",
         icon: Shield,
-        color: "from-amber-500 to-orange-600",
-        bgColor: "bg-amber-50",
+        color: "from-blue-500 to-purple-600",
+
         image: "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, our orthopaedic specialists provide advanced care for bones, joints, muscles, ligaments, and spine conditions. With a team of expert orthopaedicians, joint replacement surgeons, and physiotherapists, we offer complete treatment—from diagnosis and surgery to rehabilitation—ensuring faster recovery and improved mobility.",
         whyChoose: [
@@ -663,7 +663,7 @@ export const detailedServices = [
         subtitle: "Comprehensive, preventive, and long-term healthcare for adults",
         icon: Stethoscope,
         color: "from-blue-500 to-blue-600",
-        bgColor: "bg-blue-50",
+
         image: "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, our Internal Medicine Department is the first point of contact for patients seeking comprehensive, preventive, and long-term healthcare. Our team of expert physicians and internal medicine specialists is dedicated to diagnosing, treating, and managing a wide range of medical conditions with a patient-first approach.",
         whyChoose: [
@@ -698,7 +698,7 @@ export const detailedServices = [
         subtitle: "Round-the-clock, advanced medical support for life-threatening conditions",
         icon: Activity,
         color: "from-blue-500 to-purple-600",
-        bgColor: "bg-blue-50",
+
         image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, our Critical Care Unit (ICU) provides round-the-clock, advanced medical support for patients with life-threatening conditions. Our team of expert intensivists, critical care specialists, nurses, and paramedics is dedicated to delivering immediate, specialized care with compassion and precision.",
         whyChoose: [
@@ -733,7 +733,7 @@ export const detailedServices = [
         subtitle: "Dedicated health and well-being care for children from newborns to adolescents",
         icon: Baby,
         color: "from-violet-500 to-purple-600",
-        bgColor: "bg-violet-50",
+
         image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, our Pediatrics Department is dedicated to the health and well-being of children, from newborns to adolescents. Our team of expert pediatricians and child specialists provides comprehensive care for routine health check-ups, vaccinations, growth monitoring, and treatment of childhood illnesses, ensuring your child receives the best start in life.",
         whyChoose: [
@@ -759,7 +759,7 @@ export const detailedServices = [
         subtitle: "Comprehensive care for disorders related to ear, nose, throat, head, and neck",
         icon: Users,
         color: "from-indigo-500 to-blue-600",
-        bgColor: "bg-indigo-50",
+
         image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, our ENT specialists (Otolaryngologists) provide comprehensive care for disorders related to the ear, nose, throat, head, and neck. From routine check-ups to advanced surgical procedures, our ENT department ensures precise diagnosis and effective treatment for patients of all ages.",
         whyChoose: [
@@ -797,7 +797,7 @@ export const detailedServices = [
         subtitle: "Preserving and restoring vision through advanced diagnostic and surgical eye care",
         icon: Eye,
         color: "from-cyan-500 to-blue-600",
-        bgColor: "bg-cyan-50",
+
         image: "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, our Ophthalmology Department is dedicated to preserving and restoring vision through advanced diagnostic and surgical eye care. Our team of highly skilled ophthalmologists and eye specialists provides comprehensive treatment for a wide range of eye conditions, ensuring healthy vision for patients of all ages.",
         whyChoose: [

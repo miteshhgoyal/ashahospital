@@ -26,7 +26,7 @@ const ServicesHero = () => {
               />
             </div>
             {/* Floating Stats */}
-            <div className="absolute -bottom-8 -right-8  p-6 rounded-2xl shadow-lg">
+            <div className="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-lg">
               <div className="text-center">
                 <div className="text-2xl font-bold text-blue-600">8+</div>
                 <div className="text-sm text-gray-600">Medical Services</div>
@@ -74,9 +74,9 @@ const ServicesHero = () => {
               ].map((item, index) => (
                 <div
                   key={index}
-                  className="flex items-start gap-3 p-4  rounded-xl border border-gray-100"
+                  className="flex items-start gap-3 p-4 rounded-xl border border-blue-200"
                 >
-                  <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-white/50 backdrop-blur-xs rounded-lg flex items-center justify-center flex-shrink-0">
                     <item.icon className="w-5 h-5 text-blue-600" />
                   </div>
                   <div>

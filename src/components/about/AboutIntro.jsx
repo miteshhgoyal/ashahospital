@@ -11,7 +11,7 @@ const AboutIntro = ({ content }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
           <div>
-            <div className="inline-flex items-center px-4 py-2  text-blue-600 rounded-full font-semibold text-sm mb-6">
+            <div className="inline-flex items-center px-4 py-2 bg-white/30 text-blue-600 rounded-full font-semibold text-sm mb-6">
               Our Story
             </div>
 

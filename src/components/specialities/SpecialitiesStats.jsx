@@ -7,7 +7,7 @@ const SpecialitiesStats = ({ stats }) => {
       "from-blue-500 to-indigo-600",
       "from-purple-500 to-blue-600",
       "from-blue-500 to-blue-600",
-      "from-amber-500 to-orange-600",
+      "from-blue-500 to-purple-600",
     ][index % 4],
   }));
 

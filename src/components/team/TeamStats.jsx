@@ -30,7 +30,7 @@ const TeamStats = () => {
       label: "Medical Care",
       description: "Round-the-clock support",
       icon: Clock,
-      color: "from-amber-500 to-orange-600",
+      color: "from-blue-500 to-purple-600",
     },
   ];
 

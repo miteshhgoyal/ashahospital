@@ -1,7 +1,7 @@
 // components/ServiceCard.jsx
 const ServiceCard = ({ service, index }) => {
   return (
-    <div className="group relative overflow-hidden  rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100">
+    <div className="group relative overflow-hidden bg-white/30 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100">
       <div
         className={`bg-gradient-to-r ${service.color} p-8 text-center relative`}
       >

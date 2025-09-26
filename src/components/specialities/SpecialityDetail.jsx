@@ -6,6 +6,32 @@ const SpecialityDetail = ({ specialty, index, isReversed = false }) => {
   return (
     <section className={`py-24 ${index % 2 === 0 ? "" : "bg-gradient-to-b "}`}>
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
+        {/* Header */}
+        <div className="col-span-2 mb-8">
+          <div
+            className={`inline-flex items-center px-4 py-2 bg-white/40 backdrop-blur-sm text-gray-600 rounded-full font-semibold text-sm mb-6`}
+          >
+            <specialty.icon className="w-4 h-4 mr-2" />
+            Specialty Care
+          </div>
+
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+            {specialty.title}
+          </h2>
+
+          <p className="text-xl text-gray-600 mb-6 leading-relaxed">
+            {specialty.subtitle}
+          </p>
+
+          <div
+            className={`w-24 h-1 bg-gradient-to-r ${specialty.color} rounded-full mb-8`}
+          ></div>
+
+          {/* Description */}
+          <p className="text-lg text-gray-700 leading-relaxed">
+            {specialty.description}
+          </p>
+        </div>
         <div
           className={`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center ${
             isReversed ? "lg:grid-flow-col-dense" : ""
@@ -33,7 +59,7 @@ const SpecialityDetail = ({ specialty, index, isReversed = false }) => {
               </div>
 
               {/* Stats Badge */}
-              <div className="absolute -bottom-6 -left-6 /90 backdrop-blur-sm rounded-2xl p-4 shadow-xl">
+              <div className="absolute -bottom-6 -left-6 /90 bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-xl">
                 <div className="text-2xl font-bold text-gray-900">24/7</div>
                 <div className="text-sm text-gray-600">Available Care</div>
               </div>
@@ -42,33 +68,6 @@ const SpecialityDetail = ({ specialty, index, isReversed = false }) => {
 
           {/* Content Section */}
           <div className={`space-y-8 ${isReversed ? "lg:col-start-1" : ""}`}>
-            {/* Header */}
-            <div>
-              <div
-                className={`inline-flex items-center px-4 py-2 ${specialty.bgColor} text-gray-600 rounded-full font-semibold text-sm mb-6`}
-              >
-                <specialty.icon className="w-4 h-4 mr-2" />
-                Specialty Care
-              </div>
-
-              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-                {specialty.title}
-              </h2>
-
-              <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                {specialty.subtitle}
-              </p>
-
-              <div
-                className={`w-24 h-1 bg-gradient-to-r ${specialty.color} rounded-full mb-8`}
-              ></div>
-            </div>
-
-            {/* Description */}
-            <p className="text-lg text-gray-700 leading-relaxed">
-              {specialty.description}
-            </p>
-
             {/* Why Choose Us */}
             {specialty.whyChoose && (
               <div>
@@ -164,16 +163,6 @@ const SpecialityDetail = ({ specialty, index, isReversed = false }) => {
                 </div>
               </div>
             )}
-
-            {/* CTA Button */}
-            <div className="pt-4">
-              <button
-                className={`bg-gradient-to-r ${specialty.color} text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2`}
-              >
-                Book Consultation
-                <ArrowRight className="w-5 h-5" />
-              </button>
-            </div>
           </div>
         </div>
       </div>

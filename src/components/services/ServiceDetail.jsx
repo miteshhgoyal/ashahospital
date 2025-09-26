@@ -6,8 +6,34 @@ const ServiceDetail = ({ service, index, isReversed = false }) => {
   return (
     <section className={`py-24 ${index % 2 === 0 ? "" : "bg-gradient-to-b "}`}>
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
+        {/* Header */}
+        <div className="col-span-2 mb-8">
+          <div
+            className={`inline-flex items-center px-4 py-2 bg-white/40 backdrop-blur-sm text-gray-600 rounded-full font-semibold text-sm mb-6`}
+          >
+            <service.icon className="w-4 h-4 mr-2" />
+            Medical Service
+          </div>
+
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+            {service.title}
+          </h2>
+
+          <p className="text-xl text-gray-600 mb-6 leading-relaxed">
+            {service.subtitle}
+          </p>
+
+          <div
+            className={`w-24 h-1 bg-gradient-to-r ${service.color} rounded-full mb-8`}
+          ></div>
+
+          {/* Description */}
+          <p className="text-lg text-gray-700 leading-relaxed">
+            {service.description}
+          </p>
+        </div>
         <div
-          className={`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center ${
+          className={`grid grid-cols-1 lg:grid-cols-2 gap-16 ${
             isReversed ? "lg:grid-flow-col-dense" : ""
           }`}
         >
@@ -33,42 +59,27 @@ const ServiceDetail = ({ service, index, isReversed = false }) => {
               </div>
 
               {/* 24/7 Badge */}
-              <div className="absolute -bottom-6 -left-6 /90 backdrop-blur-sm rounded-2xl p-4 shadow-xl">
+              <div className="absolute -bottom-6 -left-6 bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-xl">
                 <div className="text-2xl font-bold text-gray-900">24/7</div>
                 <div className="text-sm text-gray-600">Available</div>
               </div>
             </div>
+            {/* Commitment */}
+            {service.commitment && (
+              <div className="bg-gradient-to-r from-blue-50 to-blue-50 rounded-2xl p-6 border border-blue-100 mt-8">
+                <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                  <Users className="w-5 h-5 text-blue-600" />
+                  Our Commitment
+                </h3>
+                <p className="text-gray-700 leading-relaxed italic">
+                  "{service.commitment}"
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Content Section */}
           <div className={`space-y-8 ${isReversed ? "lg:col-start-1" : ""}`}>
-            {/* Header */}
-            <div>
-              <div
-                className={`inline-flex items-center px-4 py-2 ${service.bgColor} text-gray-600 rounded-full font-semibold text-sm mb-6`}
-              >
-                <service.icon className="w-4 h-4 mr-2" />
-                Medical Service
-              </div>
-
-              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-                {service.title}
-              </h2>
-
-              <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                {service.subtitle}
-              </p>
-
-              <div
-                className={`w-24 h-1 bg-gradient-to-r ${service.color} rounded-full mb-8`}
-              ></div>
-            </div>
-
-            {/* Description */}
-            <p className="text-lg text-gray-700 leading-relaxed">
-              {service.description}
-            </p>
-
             {/* Why Choose Us */}
             {service.whyChoose && (
               <div>
@@ -158,29 +169,6 @@ const ServiceDetail = ({ service, index, isReversed = false }) => {
                 )}
               </div>
             )}
-
-            {/* Commitment */}
-            {service.commitment && (
-              <div className="bg-gradient-to-r from-blue-50 to-blue-50 rounded-2xl p-6 border border-blue-100">
-                <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                  <Users className="w-5 h-5 text-blue-600" />
-                  Our Commitment
-                </h3>
-                <p className="text-gray-700 leading-relaxed italic">
-                  "{service.commitment}"
-                </p>
-              </div>
-            )}
-
-            {/* CTA Button */}
-            <div className="pt-4">
-              <button
-                className={`bg-gradient-to-r ${service.color} text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2`}
-              >
-                Book Service
-                <ArrowRight className="w-5 h-5" />
-              </button>
-            </div>
           </div>
         </div>
       </div>

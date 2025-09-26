@@ -80,7 +80,7 @@ const teamDoctors = [
         qualifications: "MBBS, D. Ortho",
         image: "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?q=80&w=400&auto=format&fit=crop",
         experience: "8+ Years",
-        color: "from-amber-500 to-orange-600",
+        color: "from-blue-500 to-purple-600",
         department: "Orthopedics",
         description: "Dr. Ankit Raj is a skilled Orthopedic Surgeon in Muzaffarpur, specializing in joint replacement, arthroscopy, spine procedures, and advanced fracture management. He is dedicated to helping patients regain mobility, reduce pain, and improve their overall quality of life.",
         education: [

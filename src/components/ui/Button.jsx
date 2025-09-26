@@ -34,7 +34,7 @@ const Button = React.forwardRef(
         "bg-purple-600 text-white border border-purple-600 hover:bg-purple-700 hover:border-purple-700 shadow-lg hover:shadow-xl hover:shadow-purple-600/25",
 
       warning:
-        "bg-yellow-500 text-black border border-yellow-500 hover:bg-yellow-600 hover:border-yellow-600 shadow-lg hover:shadow-xl hover:shadow-yellow-500/25",
+        "bg-blue-500 text-black border border-blue-500 hover:bg-blue-600 hover:border-blue-600 shadow-lg hover:shadow-xl hover:shadow-blue-500/25",
 
       danger:
         "bg-blue-600 text-white border border-blue-600 hover:bg-blue-700 hover:border-blue-700 shadow-lg hover:shadow-xl hover:shadow-blue-600/25",

@@ -18,7 +18,7 @@ const TestimonialCard = ({ testimonial, variant = "default" }) => {
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <Star
                     key={i}
-                    className="w-4 h-4 text-amber-400 fill-current"
+                    className="w-4 h-4 text-blue-400 fill-current"
                   />
                 ))}
               </div>
@@ -36,14 +36,14 @@ const TestimonialCard = ({ testimonial, variant = "default" }) => {
   }
 
   return (
-    <div className="group  p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 relative border border-gray-100">
+    <div className="group bg-gradient-to-r from-blue-50 via-white to-blue-50 p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 relative border border-gray-100">
       <div className="absolute -top-4 left-8 w-8 h-8 bg-gradient-to-r from-blue-600 to-blue-600 rounded-full flex items-center justify-center">
         <Quote className="w-4 h-4 text-white" />
       </div>
 
       <div className="flex mb-6">
         {[...Array(testimonial.rating)].map((_, i) => (
-          <Star key={i} className="w-5 h-5 text-amber-400 fill-current" />
+          <Star key={i} className="w-5 h-5 text-blue-400 fill-current" />
         ))}
       </div>
 

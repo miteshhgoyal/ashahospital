@@ -9,7 +9,7 @@ const TestimonialsCallToAction = () => {
 
       <div className="relative container mx-auto px-4 lg:px-8 max-w-7xl text-center">
         <div className="inline-flex items-center px-4 py-2 /10 backdrop-blur-sm rounded-full border border-white/20 mb-8">
-          <Star className="w-4 h-4 mr-2 text-yellow-400" />
+          <Star className="w-4 h-4 mr-2 text-blue-400" />
           <span className="text-white font-semibold text-sm">
             Join Our Happy Patients
           </span>
@@ -17,7 +17,7 @@ const TestimonialsCallToAction = () => {
 
         <h2 className="text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
           Ready to Experience{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-blue-300">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-300">
             Exceptional Care
           </span>
           ?
@@ -46,7 +46,7 @@ const TestimonialsCallToAction = () => {
         {/* Trust Indicators */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
-            <Heart className="w-10 h-10 text-purple-400 mx-auto mb-4" />
+            <Heart className="w-10 h-10 text-blue-400 mx-auto mb-4" />
             <h3 className="font-bold text-white mb-2 text-lg">
               Compassionate Care
             </h3>
@@ -55,7 +55,7 @@ const TestimonialsCallToAction = () => {
             </p>
           </div>
           <div className="/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
-            <Star className="w-10 h-10 text-yellow-400 mx-auto mb-4" />
+            <Star className="w-10 h-10 text-blue-400 mx-auto mb-4" />
             <h3 className="font-bold text-white mb-2 text-lg">
               5-Star Service
             </h3>

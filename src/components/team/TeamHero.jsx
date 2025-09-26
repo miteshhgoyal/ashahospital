@@ -17,15 +17,15 @@ const TeamHero = () => {
           {/* Content */}
           <div className="space-y-8">
             <div className="inline-flex items-center px-4 py-2 bg-violet-50 rounded-full border border-violet-100">
-              <Users className="w-4 h-4 mr-2 text-violet-600" />
-              <span className="font-semibold text-sm text-violet-700">
+              <Users className="w-4 h-4 mr-2 text-blue-600" />
+              <span className="font-semibold text-sm text-blue-700">
                 Our Medical Team
               </span>
             </div>
 
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                Expert <span className="text-violet-600">Medical Team</span>
+                Expert <span className="text-blue-600">Medical Team</span>
               </h1>
 
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
@@ -38,15 +38,11 @@ const TeamHero = () => {
             {/* Team Stats */}
             <div className="grid grid-cols-2 gap-6">
               <div className=" p-6 rounded-xl border border-gray-100 text-center">
-                <div className="text-3xl font-bold text-violet-600 mb-2">
-                  25+
-                </div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">25+</div>
                 <div className="text-sm text-gray-600">Expert Doctors</div>
               </div>
               <div className=" p-6 rounded-xl border border-gray-100 text-center">
-                <div className="text-3xl font-bold text-violet-600 mb-2">
-                  15+
-                </div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>
                 <div className="text-sm text-gray-600">Years Experience</div>
               </div>
             </div>
@@ -72,7 +68,7 @@ const TeamHero = () => {
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-4">
                   <div className="w-10 h-10 bg-violet-50 rounded-lg flex items-center justify-center">
-                    <item.icon className="w-5 h-5 text-violet-600" />
+                    <item.icon className="w-5 h-5 text-blue-600" />
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">
@@ -97,9 +93,9 @@ const TeamHero = () => {
               />
             </div>
             {/* Rating Badge */}
-            <div className="absolute -top-6 -left-6  p-4 rounded-2xl shadow-lg">
+            <div className="absolute -top-6 -left-6 bg-white p-4 rounded-2xl shadow-lg">
               <div className="flex items-center gap-2">
-                <Star className="w-5 h-5 text-yellow-400 fill-current" />
+                <Star className="w-5 h-5 text-blue-400 fill-current" />
                 <div className="text-sm font-semibold text-gray-900">4.9/5</div>
               </div>
               <div className="text-xs text-gray-600">Patient Rating</div>

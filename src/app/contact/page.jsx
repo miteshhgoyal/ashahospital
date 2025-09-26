@@ -58,7 +58,7 @@ const ContactPage = () => {
         phone: contactInfo.phone,
         description: "For appointments and general inquiries",
         gradient: "from-blue-500 to-indigo-500",
-        bgGradient: "from-blue-50 to-indigo-50",
+        bgGradient: "from-blue-50 to-purple-50",
         borderColor: "border-blue-100 hover:border-blue-200",
       },
     ],
@@ -182,7 +182,7 @@ const ContactPage = () => {
               ))}
 
               {/* Email & Address - Compact Design */}
-              <div className=" rounded-xl p-6 border border-gray-200 shadow-sm">
+              <div className="bg-white/30 rounded-xl p-6 border border-gray-200 shadow-sm">
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
                     <Mail className="w-5 h-5 text-blue-600" />
@@ -205,7 +205,7 @@ const ContactPage = () => {
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <Clock className="w-5 h-5 text-amber-600 mt-1" />
+                    <Clock className="w-5 h-5 text-blue-600 mt-1" />
                     <div>
                       <p className="font-semibold text-gray-900">
                         Operating Hours
@@ -219,29 +219,13 @@ const ContactPage = () => {
                   </div>
                 </div>
               </div>
-
-              {/* Social Media - Compact */}
-              <div className=" rounded-xl p-6 border border-gray-200 shadow-sm">
-                <h4 className="font-bold text-gray-900 mb-4">Follow Us</h4>
-                <div className="flex gap-3">
-                  {contactPageData.socialMedia.map((social, index) => (
-                    <a
-                      key={index}
-                      href={social.href}
-                      className={`w-10 h-10 bg-gradient-to-r ${social.color} text-white rounded-lg flex items-center justify-center hover:scale-110 transition-transform shadow-sm`}
-                    >
-                      <social.icon className="w-5 h-5" />
-                    </a>
-                  ))}
-                </div>
-              </div>
             </div>
 
             {/* Contact Form & Map - Optimized */}
             <div className="lg:col-span-3 space-y-8">
               {/* Interactive Map */}
               <div className=" rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-                <div className="p-4  border-b border-gray-200">
+                <div className="p-4 bg-white/30 border-b border-gray-200">
                   <h3 className="font-bold text-gray-900 flex items-center gap-2">
                     <MapPin className="w-5 h-5 text-blue-600" />
                     Find Us
@@ -262,7 +246,7 @@ const ContactPage = () => {
               </div>
 
               {/* Optimized Contact Form */}
-              <div className=" rounded-xl shadow-sm border border-gray-200 p-6">
+              <div className="bg-white/40 rounded-xl shadow-sm border border-gray-200 p-6">
                 <div className="mb-6">
                   <h3 className="text-2xl font-bold text-gray-900 mb-2 flex items-center gap-2">
                     <Send className="w-6 h-6 text-blue-600" />
@@ -274,8 +258,8 @@ const ContactPage = () => {
                 {/* Success/Error Messages */}
                 {submitStatus === "success" && (
                   <div className="mb-6 p-4 bg-purple-50 border border-purple-200 rounded-lg flex items-center gap-2">
-                    <CheckCircle className="w-5 h-5 text-purple-600" />
-                    <p className="text-purple-700 font-medium">
+                    <CheckCircle className="w-5 h-5 text-blue-600" />
+                    <p className="text-blue-700 font-medium">
                       Message sent successfully!
                     </p>
                   </div>

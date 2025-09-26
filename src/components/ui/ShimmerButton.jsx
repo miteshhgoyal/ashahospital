@@ -36,7 +36,7 @@ const ShimmerButton = ({
     gold: {
       bg: "linear-gradient(to right, #F59E0B, #D97706)",
       shimmerColor: "#FCD34D",
-      borderColor: "border-yellow-500/20",
+      borderColor: "border-blue-500/20",
     },
   };
 

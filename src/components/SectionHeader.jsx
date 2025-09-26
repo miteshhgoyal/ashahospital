@@ -9,7 +9,7 @@ const SectionHeader = ({
   return (
     <div className={`text-center mb-20 ${className}`}>
       {badge && (
-        <div className="inline-flex items-center px-4 py-2  text-blue-600 rounded-full font-semibold text-sm mb-6">
+        <div className="inline-flex items-center px-4 py-2 bg-white/40 text-blue-600 rounded-full font-semibold text-sm mb-6">
           {badge}
         </div>
       )}

@@ -16,7 +16,7 @@ const TestimonialsStats = ({ stats }) => {
       label: "Satisfaction Rate",
       description: "Patient satisfaction score",
       icon: Star,
-      color: "from-amber-500 to-yellow-600",
+      color: "from-blue-500 to-blue-600",
     },
     {
       number: "5,000+",
