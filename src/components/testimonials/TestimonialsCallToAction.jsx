@@ -31,7 +31,7 @@ const TestimonialsCallToAction = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center max-w-2xl mx-auto mb-16">
-          <button className="group  text-gray-900 px-10 py-5 rounded-xl font-bold text-lg hover: transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 flex items-center justify-center gap-3">
+          <button className="group bg-white text-gray-900 px-10 py-5 rounded-xl font-bold text-lg hover: transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 flex items-center justify-center gap-3">
             <Calendar className="w-6 h-6" />
             Book Your Appointment
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
