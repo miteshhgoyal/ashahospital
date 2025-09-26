@@ -13,12 +13,12 @@ const SpecialtyCard = ({ specialty, index }) => {
       </div>
 
       {/* Specialty Name */}
-      <h3 className="text-sm font-bold text-gray-800 text-center mb-3 leading-tight">
+      <h3 className="text-lg font-bold text-gray-800 text-center mb-3 leading-tight">
         {specialty.name}
       </h3>
 
       {/* Description */}
-      <p className="text-xs text-gray-600 text-center leading-relaxed">
+      <p className="text-sm text-gray-600 text-center leading-relaxed">
         {specialty.description}
       </p>
     </div>
