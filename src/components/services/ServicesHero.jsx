@@ -1,109 +1,92 @@
 import React from "react";
-import { Stethoscope, Award, Users, Heart, Shield } from "lucide-react";
+import {
+  Stethoscope,
+  Heart,
+  Shield,
+  Clock,
+  ArrowRight,
+  Award,
+} from "lucide-react";
 import Image from "next/image";
 
 const ServicesHero = () => {
   return (
-    <section className="relative bg-gradient-to-r from-teal-600 via-blue-700 to-indigo-600 text-white pt-20">
-      <div className="absolute inset-0 bg-black/20"></div>
-
-      <div className="relative container mx-auto px-4 lg:px-8 max-w-7xl py-24">
+    <section className=" pt-24 pb-16">
+      <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Content */}
-          <div>
-            <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 mb-6">
-              <Stethoscope className="w-4 h-4 mr-2" />
-              <span className="font-semibold text-sm">
-                Our Medical Services
-              </span>
+          {/* Image First */}
+          <div className="relative order-2 lg:order-1">
+            <div className="relative overflow-hidden rounded-2xl">
+              <Image
+                src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=600&auto=format&fit=crop"
+                alt="Medical Services"
+                width={600}
+                height={500}
+                className="w-full h-[500px] object-cover"
+              />
             </div>
-
-            <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
-              Comprehensive{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-300">
-                Healthcare
-              </span>{" "}
-              Services
-            </h1>
-
-            <p className="text-xl text-white/90 leading-relaxed mb-8">
-              Experience complete medical care across multiple specialties with
-              advanced technology, expert doctors, and compassionate
-              patient-centered approach.
-            </p>
-
-            {/* Service Highlights */}
-            <div className="grid grid-cols-2 gap-6">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center">
-                  <Heart className="w-6 h-6 text-white" />
-                </div>
-                <div>
-                  <div className="text-lg font-bold text-white">
-                    8+ Services
-                  </div>
-                  <div className="text-sm text-white/70">
-                    Medical Specialties
-                  </div>
-                </div>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center">
-                  <Award className="w-6 h-6 text-white" />
-                </div>
-                <div>
-                  <div className="text-lg font-bold text-white">24/7 Care</div>
-                  <div className="text-sm text-white/70">
-                    Emergency Services
-                  </div>
-                </div>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center">
-                  <Users className="w-6 h-6 text-white" />
-                </div>
-                <div>
-                  <div className="text-lg font-bold text-white">
-                    Expert Team
-                  </div>
-                  <div className="text-sm text-white/70">Skilled Doctors</div>
-                </div>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center">
-                  <Shield className="w-6 h-6 text-white" />
-                </div>
-                <div>
-                  <div className="text-lg font-bold text-white">
-                    Advanced Care
-                  </div>
-                  <div className="text-sm text-white/70">Modern Technology</div>
-                </div>
+            {/* Floating Stats */}
+            <div className="absolute -bottom-8 -right-8  p-6 rounded-2xl shadow-lg">
+              <div className="text-center">
+                <div className="text-2xl font-bold text-blue-600">8+</div>
+                <div className="text-sm text-gray-600">Medical Services</div>
               </div>
             </div>
           </div>
 
-          {/* Image */}
-          <div className="hidden lg:block">
-            <div className="relative">
-              <div className="relative overflow-hidden rounded-3xl shadow-2xl">
-                <Image
-                  src="https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?q=80&w=600&auto=format&fit=crop"
-                  alt="Medical Services"
-                  width={600}
-                  height={500}
-                  className="w-full h-[500px] object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
-              </div>
+          {/* Content */}
+          <div className="space-y-8 order-1 lg:order-2">
+            <div className="inline-flex items-center px-4 py-2 bg-teal-50 rounded-full border border-teal-100">
+              <Stethoscope className="w-4 h-4 mr-2 text-teal-600" />
+              <span className="font-semibold text-sm text-teal-700">
+                Our Medical Services
+              </span>
+            </div>
 
-              {/* Floating Elements */}
-              <div className="absolute -top-6 -right-6 bg-white/90 backdrop-blur-sm text-blue-600 p-4 rounded-2xl shadow-xl animate-pulse">
-                <Award className="w-8 h-8" />
-              </div>
-              <div className="absolute -bottom-6 -left-6 bg-white/90 backdrop-blur-sm text-teal-600 p-4 rounded-2xl shadow-xl animate-bounce">
-                <Heart className="w-8 h-8" />
-              </div>
+            <div>
+              <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+                Comprehensive <span className="text-teal-600">Healthcare</span>{" "}
+                Services
+              </h1>
+
+              <p className="text-xl text-gray-600 leading-relaxed mb-8">
+                Experience complete medical care across multiple specialties
+                with advanced technology, expert doctors, and compassionate
+                patient-centered approach.
+              </p>
+            </div>
+
+            {/* Service Highlights Grid */}
+            <div className="grid grid-cols-2 gap-4">
+              {[
+                {
+                  icon: Heart,
+                  title: "8+ Services",
+                  desc: "Medical Specialties",
+                },
+                { icon: Clock, title: "24/7 Care", desc: "Emergency Services" },
+                { icon: Award, title: "Expert Team", desc: "Skilled Doctors" },
+                {
+                  icon: Shield,
+                  title: "Advanced Care",
+                  desc: "Modern Technology",
+                },
+              ].map((item, index) => (
+                <div
+                  key={index}
+                  className="flex items-start gap-3 p-4  rounded-xl border border-gray-100"
+                >
+                  <div className="w-10 h-10 bg-teal-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <item.icon className="w-5 h-5 text-teal-600" />
+                  </div>
+                  <div>
+                    <div className="font-bold text-gray-900 text-sm">
+                      {item.title}
+                    </div>
+                    <div className="text-xs text-gray-600">{item.desc}</div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

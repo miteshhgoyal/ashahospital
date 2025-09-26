@@ -99,7 +99,7 @@ const ContactPage = () => {
   );
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen ">
       {/* Optimized Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-600 via-indigo-700 to-teal-600 text-white pt-20 overflow-hidden">
         <div className="absolute inset-0 bg-black/10" />
@@ -140,7 +140,7 @@ const ContactPage = () => {
       </section>
 
       {/* Main Content - Split Layout */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 ">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
             {/* Contact Information - Optimized Cards */}

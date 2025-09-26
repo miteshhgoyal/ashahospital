@@ -36,7 +36,7 @@ const TestimonialCard = ({ testimonial, variant = "default" }) => {
   }
 
   return (
-    <div className="group bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 relative border border-gray-100">
+    <div className="group  p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 relative border border-gray-100">
       <div className="absolute -top-4 left-8 w-8 h-8 bg-gradient-to-r from-blue-600 to-teal-600 rounded-full flex items-center justify-center">
         <Quote className="w-4 h-4 text-white" />
       </div>

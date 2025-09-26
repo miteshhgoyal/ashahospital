@@ -19,13 +19,13 @@ const Button = React.forwardRef(
         "bg-primary text-white border border-primary hover:bg-[#E62E00] hover:border-[#E62E00] shadow-lg hover:shadow-xl hover:shadow-primary/25",
 
       secondary:
-        "bg-transparent text-white border-2 border-white hover:bg-white hover:text-black backdrop-blur-sm",
+        "bg-transparent text-white border-2 border-white hover: hover:text-black backdrop-blur-sm",
 
       outline:
         "bg-transparent text-primary border-2 border-primary hover:bg-primary hover:text-white",
 
       ghost:
-        "bg-transparent text-white border border-transparent hover:bg-white/10 hover:border-white/20",
+        "bg-transparent text-white border border-transparent hover:/10 hover:border-white/20",
 
       gradient:
         "bg-gradient-to-r from-primary to-[#B12424] text-white hover:from-[#E62E00] hover:to-[#9A1F1F] shadow-lg hover:shadow-xl hover:shadow-primary/30",

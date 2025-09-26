@@ -3,7 +3,7 @@
 import React from "react";
 import HeroSlider from "@/components/HeroSlider";
 import SectionHeader from "@/components/SectionHeader";
-import SpecialtyCard from "@/components/SpecialtyCard";
+import SpecialitiesOverview from "@/components/SpecialitiesOverview";
 import FeatureCard from "@/components/FeatureCard";
 import ServiceCard from "@/components/ServiceCard";
 import DoctorCard from "@/components/DoctorCard";
@@ -18,7 +18,6 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 
-// Import all data arrays (heroSlides, specialties, features, services, doctors, testimonials)
 import {
   heroSlides,
   specialties,
@@ -30,25 +29,11 @@ import {
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen bg-white font-inter">
+    <div className="min-h-screen  font-inter">
       <HeroSlider slides={heroSlides} />
 
       {/* Medical Specialties Ribbon */}
-      <section className="py-16 bg-white relative -mt-16 z-30">
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <div className="bg-white rounded-3xl shadow-xl border border-gray-100 p-8 lg:p-12">
-            <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-6">
-              {specialties.map((specialty, index) => (
-                <SpecialtyCard
-                  key={index}
-                  specialty={specialty}
-                  index={index}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <SpecialitiesOverview specialties={specialties} />
 
       {/* About Section */}
       <section
@@ -60,7 +45,7 @@ const HomePage = () => {
             {/* Content */}
             <div className="space-y-8">
               <div>
-                <div className="inline-flex items-center px-4 py-2 bg-blue-50 text-blue-600 rounded-full font-semibold text-sm mb-6">
+                <div className="inline-flex items-center px-4 py-2  text-blue-600 rounded-full font-semibold text-sm mb-6">
                   About Asha Hospital
                 </div>
                 <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -143,7 +128,7 @@ const HomePage = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-24 bg-white">
+      <section className="py-24 ">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
           <SectionHeader
             badge="Why Choose Us"
@@ -190,7 +175,7 @@ const HomePage = () => {
       </section>
 
       {/* Doctors */}
-      <section id="doctors" className="py-24 bg-white">
+      <section id="doctors" className="py-24 ">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
           <SectionHeader
             badge="Our Expert Team"
@@ -243,7 +228,7 @@ const HomePage = () => {
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 relative overflow-hidden">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl text-center relative z-10">
-          <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-white font-semibold text-sm mb-8">
+          <div className="inline-flex items-center px-4 py-2 /10 backdrop-blur-sm rounded-full border border-white/20 text-white font-semibold text-sm mb-8">
             Ready to Get Started?
           </div>
 
@@ -261,12 +246,12 @@ const HomePage = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center max-w-2xl mx-auto mb-16">
-            <button className="group bg-white text-gray-900 px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 flex items-center justify-center gap-3">
+            <button className="group  text-gray-900 px-10 py-5 rounded-xl font-bold text-lg hover: transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 flex items-center justify-center gap-3">
               <Phone className="w-6 h-6" />
               Call Now: +91-98765-43210
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
-            <button className="group border-2 border-white text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-white hover:text-gray-900 transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105 flex items-center justify-center gap-3">
+            <button className="group border-2 border-white text-white px-10 py-5 rounded-xl font-bold text-lg hover: hover:text-gray-900 transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105 flex items-center justify-center gap-3">
               <Calendar className="w-6 h-6" />
               Book Online
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -275,21 +260,21 @@ const HomePage = () => {
 
           {/* Contact Info Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-16 border-t border-white/20">
-            <div className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
+            <div className="/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
               <Clock className="w-10 h-10 text-cyan-400 mx-auto mb-4" />
               <h3 className="font-bold text-white mb-2 text-xl">
                 24/7 Emergency
               </h3>
               <p className="text-gray-300">Always available for urgent care</p>
             </div>
-            <div className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
+            <div className="/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
               <MapPin className="w-10 h-10 text-cyan-400 mx-auto mb-4" />
               <h3 className="font-bold text-white mb-2 text-xl">
                 Muzaffarpur, Bihar
               </h3>
               <p className="text-gray-300">Easy to reach location</p>
             </div>
-            <div className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
+            <div className="/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
               <Heart className="w-10 h-10 text-cyan-400 mx-auto mb-4" />
               <h3 className="font-bold text-white mb-2 text-xl">
                 50,000+ Patients

@@ -31,7 +31,7 @@ const Navbar = () => {
       </div>
 
       {/* Main Navigation */}
-      <nav className="bg-white/95 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50 shadow-sm">
+      <nav className="/95 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50 shadow-sm">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
@@ -117,7 +117,7 @@ const Navbar = () => {
               {/* Mobile Menu Button */}
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+                className="lg:hidden p-2 rounded-lg hover: transition-colors"
               >
                 {isMenuOpen ? (
                   <X className="w-6 h-6 text-gray-700" />
@@ -139,49 +139,49 @@ const Navbar = () => {
             <div className="flex flex-col gap-1 pt-4 border-t border-gray-200">
               <a
                 href="#home"
-                className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </a>
               <a
                 href="#about"
-                className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About Us
               </a>
               <a
                 href="#team"
-                className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Team
               </a>
               <a
                 href="#specialities"
-                className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Specialities
               </a>
               <a
                 href="#services"
-                className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
               </a>
               <a
                 href="#testimonials"
-                className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Testimonials
               </a>
               <a
                 href="#contact"
-                className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact Us

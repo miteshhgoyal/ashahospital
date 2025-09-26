@@ -8,9 +8,9 @@ const TestimonialsMain = ({ testimonials }) => {
     <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
         <SectionHeader
-          badge="Patient Testimonials"
-          title="Meet Our"
-          highlightText="Happy Patients"
+          badge=""
+          title=""
+          highlightText=""
           description="Real stories from real patients who experienced exceptional care and treatment at Asha Hospital. Their satisfaction is our greatest achievement."
         />
 

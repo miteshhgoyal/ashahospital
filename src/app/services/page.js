@@ -10,8 +10,8 @@ import { detailedServices, services, hospitalStats } from "@/data/hospitalData";
 
 const ServicesPage = () => {
     return (
-        <div className="min-h-screen bg-white">
-            
+        <div className="min-h-screen ">
+
             <ServicesHero />
             <ServicesOverview services={services} />
             <ServicesStats stats={hospitalStats} />
@@ -28,7 +28,7 @@ const ServicesPage = () => {
                 ))}
             </div>
 
-            
+
         </div>
     );
 };

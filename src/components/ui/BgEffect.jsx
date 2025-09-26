@@ -78,7 +78,7 @@ const BgEffect = () => {
         {/* Glowing Orbs */}
         <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-orange-400 rounded-full opacity-40 animate-ping animation-delay-1"></div>
         <div className="absolute top-3/4 right-1/3 w-3 h-3 bg-red-400 rounded-full opacity-50 animate-ping animation-delay-3"></div>
-        <div className="absolute top-1/2 right-1/4 w-2 h-2 bg-white rounded-full opacity-60 animate-ping animation-delay-5"></div>
+        <div className="absolute top-1/2 right-1/4 w-2 h-2  rounded-full opacity-60 animate-ping animation-delay-5"></div>
         <div className="absolute bottom-1/3 left-1/2 w-3 h-3 bg-gray-400 rounded-full opacity-30 animate-ping animation-delay-2"></div>
 
         {/* Grid Pattern Overlay */}

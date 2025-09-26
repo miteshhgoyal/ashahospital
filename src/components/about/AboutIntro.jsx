@@ -11,7 +11,7 @@ const AboutIntro = ({ content }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
           <div>
-            <div className="inline-flex items-center px-4 py-2 bg-blue-50 text-blue-600 rounded-full font-semibold text-sm mb-6">
+            <div className="inline-flex items-center px-4 py-2  text-blue-600 rounded-full font-semibold text-sm mb-6">
               Our Story
             </div>
 
@@ -47,11 +47,6 @@ const AboutIntro = ({ content }) => {
                 </div>
               ))}
             </div>
-
-            <button className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2">
-              Learn More About Us
-              <ArrowRight className="w-5 h-5" />
-            </button>
           </div>
 
           {/* Image Grid */}

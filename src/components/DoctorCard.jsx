@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const DoctorCard = ({ doctor, index }) => {
   return (
-    <div className="group bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:scale-105 border border-gray-100">
+    <div className="group  rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:scale-105 border border-gray-100">
       <div className="relative overflow-hidden">
         <Image
           src={doctor.image}
@@ -13,7 +13,7 @@ const DoctorCard = ({ doctor, index }) => {
           height={400}
           className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
         />
-        <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-gray-900 px-3 py-1 rounded-full text-sm font-semibold">
+        <div className="absolute top-4 left-4 /90 backdrop-blur-sm text-gray-900 px-3 py-1 rounded-full text-sm font-semibold">
           {doctor.experience}
         </div>
         <div

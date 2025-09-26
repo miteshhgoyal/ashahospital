@@ -15,7 +15,7 @@ const TeamIntro = () => {
     <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center px-4 py-2 bg-blue-50 text-blue-600 rounded-full font-semibold text-sm mb-6">
+          <div className="inline-flex items-center px-4 py-2  text-blue-600 rounded-full font-semibold text-sm mb-6">
             Our Team Excellence
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -33,7 +33,7 @@ const TeamIntro = () => {
         </div>
 
         {/* Highlights */}
-        <div className="bg-white rounded-3xl shadow-lg border border-gray-100 p-12">
+        <div className=" rounded-3xl shadow-lg border border-gray-100 p-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">

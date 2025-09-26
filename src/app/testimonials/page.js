@@ -10,7 +10,7 @@ import { testimonials, hospitalStats } from "@/data/hospitalData";
 
 const TestimonialsPage = () => {
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen ">
 
             <TestimonialsHero />
             <TestimonialsMain testimonials={testimonials} />

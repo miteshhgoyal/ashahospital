@@ -87,11 +87,11 @@ const ShimmerButton = ({
 
       {/* Corner Glows */}
       <div
-        className="pointer-events-none absolute transition-all duration-300 ease-in-out top-0 right-0 h-4 w-20 rounded-full bg-white/60 blur-[14px] opacity-80 group-hover:opacity-100"
+        className="pointer-events-none absolute transition-all duration-300 ease-in-out top-0 right-0 h-4 w-20 rounded-full /60 blur-[14px] opacity-80 group-hover:opacity-100"
         style={{ transform: "translate(30%,-30%)" }}
       ></div>
       <div
-        className="pointer-events-none absolute transition-all duration-300 ease-in-out bottom-0 left-0 h-4 w-20 rounded-full bg-white/60 blur-[14px] opacity-80 group-hover:opacity-100"
+        className="pointer-events-none absolute transition-all duration-300 ease-in-out bottom-0 left-0 h-4 w-20 rounded-full /60 blur-[14px] opacity-80 group-hover:opacity-100"
         style={{ transform: "translate(-30%,30%)" }}
       ></div>
     </a>

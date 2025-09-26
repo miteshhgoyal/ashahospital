@@ -63,7 +63,7 @@ export const specialties = [
         name: "Neuro",
         icon: Brain,
         color: "from-blue-500 to-blue-600",
-        bgColor: "bg-blue-50 hover:bg-blue-100",
+        bgColor: " hover:bg-blue-100",
         description: "Advanced neurological treatments and brain surgery"
     },
     {
@@ -439,7 +439,7 @@ export const detailedSpecialities = [
         subtitle: "World-class treatment for complex brain and spine disorders",
         icon: Brain,
         color: "from-blue-500 to-indigo-600",
-        bgColor: "bg-blue-50",
+        bgColor: "",
         image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, we provide world-class treatment for complex brain and spine disorders with advanced technology and compassionate care. Our team of highly qualified neurosurgeons and spine specialists are committed to offering personalized treatment plans, focusing on faster recovery, safety, and long-term well-being.",
         whyChoose: [
@@ -562,7 +562,7 @@ export const detailedServices = [
         subtitle: "Advanced care for complex brain, spine, and nervous system disorders",
         icon: Brain,
         color: "from-blue-500 to-indigo-600",
-        bgColor: "bg-blue-50",
+        bgColor: "",
         image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=800&auto=format&fit=crop",
         description: "At Asha Hospital, our Neuro Services Department is dedicated to providing advanced care for complex brain, spine, and nervous system disorders. With a team of highly experienced neurologists, neurosurgeons, and neuro-rehabilitation specialists, we combine medical expertise with cutting-edge technology to deliver accurate diagnosis, effective treatment, and holistic recovery.",
         whyChoose: [

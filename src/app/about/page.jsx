@@ -17,19 +17,19 @@ import {
   services,
   specialties,
 } from "@/data/hospitalData";
+import SpecialitiesOverview from "@/components/SpecialitiesOverview";
 
 const AboutPage = () => {
   return (
-    <div className="min-h-screen bg-white">
-      
+    <div className="min-h-screen ">
       <AboutHero content={aboutContent} stats={hospitalStats} />
       <AboutIntro content={aboutContent} />
       <ExperienceStats stats={hospitalStats} />
       <MissionVision content={aboutContent} />
       <OurTeam doctors={doctors} />
       <WhyChooseUs features={features} />
-      <OurServices services={services} specialties={specialties} />
-      
+      <OurServices services={services} />
+      <SpecialitiesOverview specialties={specialties} />
     </div>
   );
 };

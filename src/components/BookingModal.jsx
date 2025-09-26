@@ -111,7 +111,7 @@ const BookingModal = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
-      <div className="bg-white rounded-3xl shadow-xl w-full max-w-2xl max-h-[90vh] overflow-hidden">
+      <div className=" rounded-3xl shadow-xl w-full max-w-2xl max-h-[90vh] overflow-hidden">
         {/* Header */}
         <div className="flex items-center justify-between p-6 bg-gradient-to-br from-medical to-health">
           <div className="flex items-center gap-3">
@@ -150,7 +150,7 @@ const BookingModal = ({ isOpen, onClose }) => {
               </p>
 
               {selectedDoctorInfo && (
-                <div className="bg-gray-50 rounded-lg p-4 max-w-sm mx-auto">
+                <div className=" rounded-lg p-4 max-w-sm mx-auto">
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between">
                       <span className="text-gray-600">Doctor:</span>
@@ -246,7 +246,7 @@ const BookingModal = ({ isOpen, onClose }) => {
                       key={doctor.id}
                       className={`p-4 border rounded-lg cursor-pointer transition-all ${
                         formData.selectedDoctor === doctor.id
-                          ? "border-blue-500 bg-blue-50"
+                          ? "border-blue-500 "
                           : "border-gray-200 hover:border-gray-300"
                       }`}
                     >
@@ -341,7 +341,7 @@ const BookingModal = ({ isOpen, onClose }) => {
                       <div
                         className={`p-3 border rounded-lg text-center transition-all ${
                           formData.appointmentMode === value
-                            ? "border-blue-500 bg-blue-50"
+                            ? "border-blue-500 "
                             : "border-gray-200 hover:border-gray-300"
                         }`}
                       >

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const DoctorProfile = ({ doctor, index, isReversed = false }) => {
   return (
-    <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
+    <div className=" rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
       <div
         className={`grid grid-cols-1 lg:grid-cols-2 gap-0 ${
           isReversed ? "lg:grid-cols-2" : ""
@@ -23,7 +23,7 @@ const DoctorProfile = ({ doctor, index, isReversed = false }) => {
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
 
             {/* Floating Elements */}
-            <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-sm text-gray-900 px-4 py-2 rounded-full text-sm font-semibold">
+            <div className="absolute top-6 left-6 /90 backdrop-blur-sm text-gray-900 px-4 py-2 rounded-full text-sm font-semibold">
               {doctor.experience}
             </div>
             <div
@@ -34,7 +34,7 @@ const DoctorProfile = ({ doctor, index, isReversed = false }) => {
 
             {/* Bottom Info */}
             <div className="absolute bottom-6 left-6 right-6">
-              <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-4">
+              <div className="/90 backdrop-blur-sm rounded-2xl p-4">
                 <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                   <MapPin className="w-4 h-4" />
                   {doctor.location}
@@ -122,7 +122,7 @@ const DoctorProfile = ({ doctor, index, isReversed = false }) => {
                 {doctor.servingAreas.map((area, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium"
+                    className="px-3 py-1  text-gray-700 rounded-full text-sm font-medium"
                   >
                     {area}
                   </span>

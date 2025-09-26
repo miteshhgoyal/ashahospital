@@ -65,7 +65,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-teal-600 rounded-xl flex items-center justify-center shadow-lg">
-                <div className="w-6 h-6 bg-white rounded-lg flex items-center justify-center">
+                <div className="w-6 h-6  rounded-lg flex items-center justify-center">
                   <Heart className="w-3 h-3 text-blue-600" />
                 </div>
               </div>
@@ -88,7 +88,7 @@ const Footer = () => {
             {/* Key Features */}
             <div className="space-y-4">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center">
+                <div className="w-10 h-10  rounded-lg flex items-center justify-center">
                   <Clock className="w-5 h-5 text-blue-600" />
                 </div>
                 <span className="text-gray-700 font-medium">
@@ -150,7 +150,7 @@ const Footer = () => {
       </div>
 
       {/* Contact Info Cards */}
-      <div className="bg-white border-y border-gray-200">
+      <div className=" border-y border-gray-200">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl py-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Emergency Contact */}
@@ -219,7 +219,7 @@ const Footer = () => {
       </div>
 
       {/* Newsletter & Social Media */}
-      <div className="bg-gray-50">
+      <div className="">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl py-8">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-8">
             {/* Newsletter Signup */}
@@ -234,7 +234,7 @@ const Footer = () => {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="flex-1 px-4 py-3 border border-gray-200 rounded-l-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none bg-white"
+                  className="flex-1 px-4 py-3 border border-gray-200 rounded-l-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none "
                 />
                 <button className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-6 py-3 rounded-r-xl hover:shadow-lg transition-all duration-300 flex items-center gap-2 font-medium">
                   <Send className="w-4 h-4" />
@@ -251,25 +251,25 @@ const Footer = () => {
               <div className="flex items-center gap-4">
                 <a
                   href="#facebook"
-                  className="w-12 h-12 bg-white hover:bg-blue-50 border border-gray-200 hover:border-blue-300 rounded-xl flex items-center justify-center transition-all duration-300 group shadow-sm hover:shadow-md"
+                  className="w-12 h-12  hover: border border-gray-200 hover:border-blue-300 rounded-xl flex items-center justify-center transition-all duration-300 group shadow-sm hover:shadow-md"
                 >
                   <Facebook className="w-5 h-5 text-gray-600 group-hover:text-blue-600 group-hover:scale-110 transition-all" />
                 </a>
                 <a
                   href="#instagram"
-                  className="w-12 h-12 bg-white hover:bg-pink-50 border border-gray-200 hover:border-pink-300 rounded-xl flex items-center justify-center transition-all duration-300 group shadow-sm hover:shadow-md"
+                  className="w-12 h-12  hover:bg-pink-50 border border-gray-200 hover:border-pink-300 rounded-xl flex items-center justify-center transition-all duration-300 group shadow-sm hover:shadow-md"
                 >
                   <Instagram className="w-5 h-5 text-gray-600 group-hover:text-pink-600 group-hover:scale-110 transition-all" />
                 </a>
                 <a
                   href="#twitter"
-                  className="w-12 h-12 bg-white hover:bg-blue-50 border border-gray-200 hover:border-blue-300 rounded-xl flex items-center justify-center transition-all duration-300 group shadow-sm hover:shadow-md"
+                  className="w-12 h-12  hover: border border-gray-200 hover:border-blue-300 rounded-xl flex items-center justify-center transition-all duration-300 group shadow-sm hover:shadow-md"
                 >
                   <Twitter className="w-5 h-5 text-gray-600 group-hover:text-blue-500 group-hover:scale-110 transition-all" />
                 </a>
                 <a
                   href="#youtube"
-                  className="w-12 h-12 bg-white hover:bg-red-50 border border-gray-200 hover:border-red-300 rounded-xl flex items-center justify-center transition-all duration-300 group shadow-sm hover:shadow-md"
+                  className="w-12 h-12  hover:bg-red-50 border border-gray-200 hover:border-red-300 rounded-xl flex items-center justify-center transition-all duration-300 group shadow-sm hover:shadow-md"
                 >
                   <Youtube className="w-5 h-5 text-gray-600 group-hover:text-red-600 group-hover:scale-110 transition-all" />
                 </a>
@@ -280,7 +280,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Copyright Bar */}
-      <div className="bg-white border-t border-gray-200">
+      <div className=" border-t border-gray-200">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2 text-gray-600">

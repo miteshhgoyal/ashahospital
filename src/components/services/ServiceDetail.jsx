@@ -6,7 +6,7 @@ const ServiceDetail = ({ service, index, isReversed = false }) => {
   return (
     <section
       className={`py-24 ${
-        index % 2 === 0 ? "bg-white" : "bg-gradient-to-b from-gray-50 to-white"
+        index % 2 === 0 ? "" : "bg-gradient-to-b from-gray-50 to-white"
       }`}
     >
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
@@ -37,7 +37,7 @@ const ServiceDetail = ({ service, index, isReversed = false }) => {
               </div>
 
               {/* 24/7 Badge */}
-              <div className="absolute -bottom-6 -left-6 bg-white/90 backdrop-blur-sm rounded-2xl p-4 shadow-xl">
+              <div className="absolute -bottom-6 -left-6 /90 backdrop-blur-sm rounded-2xl p-4 shadow-xl">
                 <div className="text-2xl font-bold text-gray-900">24/7</div>
                 <div className="text-sm text-gray-600">Available</div>
               </div>

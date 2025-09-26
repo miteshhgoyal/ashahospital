@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import SpecialitiesHero from "@/components/specialities/SpecialitiesHero";
-import SpecialitiesOverview from "@/components/specialities/SpecialitiesOverview";
+import SpecialitiesOverview from "@/components/SpecialitiesOverview";
 import SpecialityDetail from "@/components/specialities/SpecialityDetail";
 import SpecialitiesStats from "@/components/specialities/SpecialitiesStats";
 
@@ -14,7 +14,7 @@ import {
 
 const SpecialitiesPage = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen ">
       <SpecialitiesHero />
       <SpecialitiesOverview specialties={specialties} />
       <SpecialitiesStats stats={hospitalStats} />
