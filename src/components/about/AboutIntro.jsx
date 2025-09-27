@@ -24,20 +24,16 @@ const AboutIntro = ({ content }) => {
 
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-600 rounded-full mb-8"></div>
 
-            <p className="text-xl text-gray-600 leading-relaxed mb-6">
-              {content.description}
-            </p>
-
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              With modern facilities, experienced doctors, and a patient-first
-              approach, we aim to deliver healthcare that combines medical
-              excellence with compassion. For over {content.experience}, we have
-              been combining advanced technology with personalized treatment
-              plans that meet international standards.
+              For over MORE THAN 15 YEARS, we have been a trusted name in
+              comprehensive medical care, combining advanced technology,
+              experienced doctors, and personalized treatment plans. Our mission
+              is to provide affordable, accessible, and patient-centric
+              healthcare services that meet international standards
             </p>
 
             {/* Highlights from data */}
-            <div className="space-y-4 mb-8">
+            <div className="space-y-1 mb-8">
               {content.highlights.map((highlight, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">

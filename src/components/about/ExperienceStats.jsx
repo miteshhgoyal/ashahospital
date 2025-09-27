@@ -31,13 +31,13 @@ const ExperienceStats = ({ stats }) => {
           of Excellence
         </h2>
 
-        <p className="text-xl text-white/90 max-w-3xl mx-auto mb-16">
+        <p className="text-xl text-white/90 max-w-3xl mx-auto">
           At Asha Hospital, we are committed to bringing compassionate,
           comprehensive, and cutting-edge healthcare closer to the people of
           Muzaffarpur and surrounding regions.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {statsWithColors.map((stat, index) => (
             <div
               key={index}
@@ -56,7 +56,7 @@ const ExperienceStats = ({ stats }) => {
               </h3>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

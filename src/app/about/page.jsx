@@ -5,31 +5,29 @@ import AboutIntro from "@/components/about/AboutIntro";
 import MissionVision from "@/components/about/MissionVision";
 import ExperienceStats from "@/components/about/ExperienceStats";
 import OurTeam from "@/components/about/OurTeam";
-import WhyChooseUs from "@/components/about/WhyChooseUs";
-import OurServices from "@/components/about/OurServices";
 
 // Import data from centralized data file
 import {
   aboutContent,
   hospitalStats,
   doctors,
-  features,
-  services,
-  specialties,
 } from "@/data/hospitalData";
-import SpecialitiesOverview from "@/components/SpecialitiesOverview";
+import MedicalServices from "@/components/about/MedicalServices";
+import WhyAshaHospital from "@/components/about/WhyAshaHospital";
 
 const AboutPage = () => {
   return (
     <div className="min-h-screen ">
       <AboutHero content={aboutContent} stats={hospitalStats} />
       <AboutIntro content={aboutContent} />
+      <OurTeam doctors={doctors} />
+
+      <MedicalServices />
+
       <ExperienceStats stats={hospitalStats} />
       <MissionVision content={aboutContent} />
-      <OurTeam doctors={doctors} />
-      <WhyChooseUs features={features} />
-      <OurServices services={services} />
-      <SpecialitiesOverview specialties={specialties} />
+
+      <WhyAshaHospital />
     </div>
   );
 };

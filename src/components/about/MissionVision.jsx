@@ -1,6 +1,5 @@
-// components/about/MissionVision.jsx
 import React from "react";
-import { Target, Eye, Heart } from "lucide-react";
+import { Target, Eye } from "lucide-react";
 
 const MissionVision = ({ content }) => {
   return (
@@ -44,54 +43,6 @@ const MissionVision = ({ content }) => {
             <p className="text-lg text-gray-700 leading-relaxed">
               {content.vision}
             </p>
-          </div>
-        </div>
-
-        {/* Core Values */}
-        <div className="mt-20">
-          <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Our Core{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-600">
-              Values
-            </span>
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                <Heart className="w-10 h-10 text-white" />
-              </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-4">
-                Compassion
-              </h4>
-              <p className="text-gray-600 leading-relaxed">
-                Every patient is treated with empathy, dignity, and the highest
-                level of care.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                <Target className="w-10 h-10 text-white" />
-              </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-4">
-                Excellence
-              </h4>
-              <p className="text-gray-600 leading-relaxed">
-                We strive for the highest standards in medical care and patient
-                satisfaction.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-r from-violet-500 to-purple-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                <Eye className="w-10 h-10 text-white" />
-              </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-4">
-                Innovation
-              </h4>
-              <p className="text-gray-600 leading-relaxed">
-                Continuously adopting advanced technology and modern treatment
-                methods.
-              </p>
-            </div>
           </div>
         </div>
       </div>
