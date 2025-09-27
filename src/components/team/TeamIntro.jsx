@@ -12,7 +12,7 @@ const TeamIntro = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b ">
+    <section className="pt-24 bg-gradient-to-b ">
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2  text-blue-600 rounded-full font-semibold text-sm mb-6">

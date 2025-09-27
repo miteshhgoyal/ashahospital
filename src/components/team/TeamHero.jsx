@@ -35,18 +35,6 @@ const TeamHero = () => {
               </p>
             </div>
 
-            {/* Team Stats */}
-            <div className="grid grid-cols-2 gap-6">
-              <div className=" p-6 rounded-xl border border-gray-100 text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">25+</div>
-                <div className="text-sm text-gray-600">Expert Doctors</div>
-              </div>
-              <div className=" p-6 rounded-xl border border-gray-100 text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>
-                <div className="text-sm text-gray-600">Years Experience</div>
-              </div>
-            </div>
-
             {/* Key Features */}
             <div className="space-y-4">
               {[

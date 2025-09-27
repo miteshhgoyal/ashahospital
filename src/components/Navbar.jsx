@@ -138,50 +138,50 @@ const Navbar = () => {
           >
             <div className="flex flex-col gap-1 pt-4 border-t border-gray-200">
               <a
-                href="#home"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                href="/"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </a>
               <a
-                href="#about"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                href="/about"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About Us
               </a>
               <a
-                href="#team"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                href="/team"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Team
               </a>
               <a
-                href="#specialities"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                href="/specialities"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Specialities
               </a>
               <a
-                href="#services"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                href="/services"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
               </a>
               <a
-                href="#testimonials"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                href="/testimonials"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Testimonials
               </a>
               <a
-                href="#contact"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-3 px-4 rounded-lg"
+                href="/contact"
+                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact Us

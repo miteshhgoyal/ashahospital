@@ -3,7 +3,6 @@ import React from "react";
 import TeamHero from "@/components/team/TeamHero";
 import TeamIntro from "@/components/team/TeamIntro";
 import DoctorProfile from "@/components/team/DoctorProfile";
-import TeamStats from "@/components/team/TeamStats";
 
 // Enhanced doctor data with detailed information
 const teamDoctors = [
@@ -128,7 +127,6 @@ const TeamPage = () => {
 
             <TeamHero />
             <TeamIntro />
-            <TeamStats />
             <div className="py-24 bg-gradient-to-b ">
                 <div className="container mx-auto px-4 lg:px-8 max-w-7xl space-y-24">
                     {teamDoctors.map((doctor, index) => (
