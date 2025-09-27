@@ -9,31 +9,24 @@ import {
     Youtube,
 } from "lucide-react";
 
-// Hero Slides Data
 export const heroSlides = [
     {
         id: 1,
-        title: "WELCOME TO ASHA HOSPITAL",
-        subtitle: "Bihar's Leading Multi Speciality Hospital of Neurology, Gynaecology & Orthopaedic Care in Muzaffarpur",
+        title: "Welcome To Asha Hospital",
+        subtitle: "Bihar's leading Multi Speciality Hospital of Neurology, Gynaecology & Orthopaedic Care in Muzaffarpur",
         image: "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?q=80&w=1200&auto=format&fit=crop",
-        stats: { patients: "50,000+", doctors: "25+", experience: "15+" },
-        gradient: "from-blue-600 via-blue-700 to-indigo-800",
     },
     {
         id: 2,
-        title: "COMMITTED TO BEST HEALTHCARE",
+        title: "Committed To Best Healthcare",
         subtitle: "Multi Speciality Excellence for a Happy and Healthy Lifestyle",
         image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=1200&auto=format&fit=crop",
-        stats: { patients: "50,000+", doctors: "25+", experience: "15+" },
-        gradient: "from-blue-600 via-cyan-700 to-blue-800",
     },
     {
         id: 3,
-        title: "WE ENSURE CARE AND CURE",
-        subtitle: "Multi Speciality Hospital - We are the guardian of your good health",
+        title: "We Ensure Care And Cure",
+        subtitle: "Multi Speciality Hospital - we are the guardian of your good health",
         image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=1200&auto=format&fit=crop",
-        stats: { patients: "50,000+", doctors: "25+", experience: "15+" },
-        gradient: "from-blue-600 via-blue-700 to-cyan-800",
     },
 ];
 
