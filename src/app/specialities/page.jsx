@@ -15,9 +15,7 @@ import {
 const SpecialitiesPage = () => {
   return (
     <div className="min-h-screen ">
-      <SpecialitiesHero />
       <SpecialitiesOverview specialties={specialties} />
-      <SpecialitiesStats stats={hospitalStats} />
 
       {/* Detailed Specialities Sections */}
       <div className="space-y-0">

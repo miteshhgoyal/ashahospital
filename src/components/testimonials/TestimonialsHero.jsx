@@ -15,8 +15,8 @@ const TestimonialsHero = () => {
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
-          <div className="space-y-8">
-            <div className="inline-flex items-center px-4 py-2 bg-purple-50 rounded-full border border-purple-100">
+          <div className="space-y-4">
+            <div className="inline-flex items-center px-4 py-2 bg-white/50 rounded-full border border-purple-100">
               <MessageCircle className="w-4 h-4 mr-2 text-blue-600" />
               <span className="font-semibold text-sm text-blue-700">
                 Patient Testimonials
@@ -33,31 +33,6 @@ const TestimonialsHero = () => {
                 and treatment at Asha Hospital. Their satisfaction is our
                 greatest achievement and motivation.
               </p>
-            </div>
-
-            {/* Key Stats */}
-            <div className="grid grid-cols-3 gap-6">
-              <div className="text-center bg-purple-50 p-6 rounded-xl">
-                <div className="text-3xl font-bold text-blue-600 mb-1">
-                  50,000+
-                </div>
-                <div className="text-sm text-gray-600">Happy Patients</div>
-              </div>
-              <div className="text-center bg-blue-50 p-6 rounded-xl">
-                <div className="flex justify-center mb-2">
-                  {[...Array(5)].map((_, i) => (
-                    <Star
-                      key={i}
-                      className="w-4 h-4 text-blue-500 fill-current"
-                    />
-                  ))}
-                </div>
-                <div className="text-sm text-gray-600">5-Star Reviews</div>
-              </div>
-              <div className="text-center bg-purple-50 p-6 rounded-xl">
-                <div className="text-3xl font-bold text-blue-600 mb-1">98%</div>
-                <div className="text-sm text-gray-600">Satisfaction Rate</div>
-              </div>
             </div>
 
             {/* Patient Feedback Highlights */}

@@ -11,12 +11,8 @@ import { detailedServices, services, hospitalStats } from "@/data/hospitalData";
 const ServicesPage = () => {
     return (
         <div className="min-h-screen ">
-
             <ServicesHero />
-            <ServicesOverview services={services} />
-            <ServicesStats stats={hospitalStats} />
 
-            {/* Detailed Services Sections */}
             <div className="space-y-0">
                 {detailedServices.map((service, index) => (
                     <ServiceDetail
@@ -27,8 +23,6 @@ const ServicesPage = () => {
                     />
                 ))}
             </div>
-
-
         </div>
     );
 };

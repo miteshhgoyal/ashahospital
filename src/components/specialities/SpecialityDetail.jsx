@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const SpecialityDetail = ({ specialty, index, isReversed = false }) => {
   return (
-    <section className={`py-24 ${index % 2 === 0 ? "" : "bg-gradient-to-b "}`}>
+    <section className="py-12">
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
         {/* Header */}
         <div className="col-span-2 mb-8">
