@@ -122,7 +122,7 @@ const DoctorProfile = ({ doctor, index, isReversed = false }) => {
                 {doctor.servingAreas.map((area, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1  text-gray-700 rounded-full text-sm font-medium"
+                    className="px-3 py-1 bg-gradient-to-br from-blue-50/80 to-blue-200/70 text-gray-700 rounded-full text-sm font-medium"
                   >
                     {area}
                   </span>
