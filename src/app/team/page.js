@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import TeamHero from "@/components/team/TeamHero";
 import TeamIntro from "@/components/team/TeamIntro";

@@ -1,5 +1,3 @@
-// pages/contact/page.js
-"use client";
 import React, { useMemo } from "react";
 import {
   MapPin,

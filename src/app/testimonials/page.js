@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import TestimonialsHero from "@/components/testimonials/TestimonialsHero";
 import TestimonialsMain from "@/components/testimonials/TestimonialsMain";

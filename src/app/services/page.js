@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import ServicesHero from "@/components/services/ServicesHero";
 import ServiceDetail from "@/components/services/ServiceDetail";

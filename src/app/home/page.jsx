@@ -1,5 +1,3 @@
-// pages/index.js or HomePage.jsx
-"use client";
 import React from "react";
 import HeroSlider from "@/components/HeroSlider";
 import SectionHeader from "@/components/SectionHeader";
@@ -8,14 +6,7 @@ import FeatureCard from "@/components/FeatureCard";
 import ServiceCard from "@/components/ServiceCard";
 import DoctorCard from "@/components/DoctorCard";
 import TestimonialCard from "@/components/TestimonialCard";
-import {
-  Phone,
-  Calendar,
-  ArrowRight,
-  Clock,
-  MapPin,
-  Heart,
-} from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 import {

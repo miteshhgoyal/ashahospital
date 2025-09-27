@@ -1,9 +1,6 @@
-"use client";
 import React from "react";
-import SpecialitiesHero from "@/components/specialities/SpecialitiesHero";
 import SpecialitiesOverview from "@/components/SpecialitiesOverview";
 import SpecialityDetail from "@/components/specialities/SpecialityDetail";
-import SpecialitiesStats from "@/components/specialities/SpecialitiesStats";
 
 // Import data
 import {
