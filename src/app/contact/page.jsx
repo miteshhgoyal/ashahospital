@@ -330,7 +330,7 @@ const ContactPage = () => {
                 </div>
                 <div className="h-96 lg:h-[500px]">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57244.99798963971!2d85.31080027910155!3d26.12385699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58dce6732e59%3A0x4059f39a1ac82f06!2sMuzaffarpur%2C%20Bihar!5e0!3m2!1sen!2sin!4v1632825600000!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.6344626174864!2d85.36163717541208!3d26.110848477134205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed1100082d3507%3A0xc14674ea4f464857!2sAsha%20Hospital!5e0!3m2!1sen!2sin!4v1758968528815!5m2!1sen!2sin"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}

@@ -212,36 +212,6 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
-      {/* CTA Section */}
-      <section className="py-24 bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 relative overflow-hidden">
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl text-center relative z-10">
-          <div className="inline-flex items-center px-4 py-2 /10 backdrop-blur-sm rounded-full border border-white/20 text-white font-semibold text-sm mb-8">
-            Ready to Get Started?
-          </div>
-
-          <h2 className="text-4xl lg:text-6xl font-bold text-white mb-8 leading-tight">
-            Ready to Experience Excellence in{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">
-              Healthcare
-            </span>
-            ?
-          </h2>
-          <p className="text-xl lg:text-2xl text-gray-200 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Book your appointment today and let our expert team take care of
-            your health with compassion, expertise, and state-of-the-art medical
-            facilities.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-6 justify-center max-w-2xl mx-auto mb-16">
-            <button className="group bg-white text-gray-900 px-10 py-5 rounded-xl font-bold text-lg hover: transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 flex items-center justify-center gap-3">
-              <Phone className="w-6 h-6" />
-              Call Now
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };

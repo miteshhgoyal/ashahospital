@@ -8,116 +8,101 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Top Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-600 text-white py-2">
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <div className="flex flex-col sm:flex-row justify-between items-center text-sm">
-            <div className="flex items-center gap-6 mb-2 sm:mb-0">
+      {/* Enhanced Top Header */}
+      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-2 sm:py-3">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div className="flex flex-col sm:flex-row justify-between items-center text-xs sm:text-sm">
+            <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 mb-2 sm:mb-0">
               <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4" />
-                <span className="font-medium">Emergency: +91-98765-43210</span>
+                <Phone className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
+                <a
+                  href="tel:+919876543210"
+                  className="font-medium hover:underline"
+                >
+                  Emergency: +91-98765-43210
+                </a>
               </div>
               <div className="hidden md:flex items-center gap-2">
-                <Phone className="w-4 h-4" />
-                <span>Appointment: +91-98765-43211</span>
+                <Phone className="w-4 h-4 flex-shrink-0" />
+                <a href="tel:+919876543211" className="hover:underline">
+                  Appointment: +91-98765-43211
+                </a>
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              <span className="font-semibold">24/7 Doctors Available</span>
+              <Clock className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
+              <span className="font-semibold text-center">
+                24/7 Emergency Available
+              </span>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Main Navigation */}
-      <nav className="bg-white/30 backdrop-blur-sm border-b border-gray-200 shadow-sm py-6">
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <div className="flex justify-between items-center h-fit">
-            {/* Logo */}
+      {/* Enhanced Main Navigation */}
+      <nav className="bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm sticky top-0 z-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div className="flex justify-between items-center h-16 sm:h-20">
+            {/* Enhanced Logo */}
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-600 rounded-xl flex items-center justify-center shadow-lg">
-                <Heart className="w-6 h-6 text-white" />
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg">
+                <Heart className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
-              <div>
-                <h1 className="text-xl font-bold text-gray-900">
+              <div className="hidden sm:block">
+                <h1 className="text-lg sm:text-xl font-bold text-gray-900">
                   Asha Hospital
                 </h1>
                 <p className="text-xs text-gray-600">
                   Excellence in Healthcare
                 </p>
               </div>
+              {/* Mobile Logo Text */}
+              <div className="block sm:hidden">
+                <h1 className="text-base font-bold text-gray-900">
+                  Asha Hospital
+                </h1>
+              </div>
             </div>
 
-            {/* Desktop Navigation */}
+            {/* Enhanced Desktop Navigation */}
             <div className="hidden lg:flex items-center gap-8">
-              <a
-                href="/"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium relative group"
-              >
-                Home
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a
-                href="/about"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium relative group"
-              >
-                About Us
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a
-                href="/team"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium relative group"
-              >
-                Team
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a
-                href="/specialities"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium relative group"
-              >
-                Specialities
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a
-                href="/services"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium relative group"
-              >
-                Services
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a
-                href="/testimonials"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium relative group"
-              >
-                Testimonials
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a
-                href="/contact"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium relative group"
-              >
-                Contact Us
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
+              {[
+                { href: "/", label: "Home" },
+                { href: "/about", label: "About" },
+                { href: "/team", label: "Doctors" },
+                { href: "/specialities", label: "Specialities" },
+                { href: "/services", label: "Services" },
+                { href: "/testimonials", label: "Reviews" },
+                { href: "/contact", label: "Contact" },
+              ].map((item) => (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className="text-gray-700 hover:text-blue-600 transition-colors font-medium relative group py-2"
+                >
+                  {item.label}
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+              ))}
             </div>
 
-            {/* Right Side Actions */}
-            <div className="flex items-center gap-4">
-              {/* Book Appointment Button */}
+            {/* Enhanced Right Side Actions */}
+            <div className="flex items-center gap-3">
+              {/* Enhanced Book Appointment Button */}
               <button
                 onClick={() => setIsBookingModalOpen(true)}
-                className="bg-gradient-to-r from-blue-600 to-blue-600 text-white px-6 py-2.5 rounded-lg hover:shadow-lg transition-all duration-300 font-medium flex items-center gap-2 hover:scale-105"
+                className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-3 py-2 sm:px-4 sm:py-2.5 rounded-lg hover:shadow-lg transition-all duration-300 font-medium flex items-center gap-2 hover:scale-105 text-sm"
               >
-                <Calendar className="w-4 h-4" />
+                <Calendar className="w-4 h-4 flex-shrink-0" />
                 <span className="hidden sm:inline">Book Appointment</span>
-                <span className="sm:hidden">Book</span>
+                <span className="sm:hidden text-xs">Book</span>
               </button>
 
-              {/* Mobile Menu Button */}
+              {/* Enhanced Mobile Menu Button */}
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="lg:hidden p-2 rounded-lg hover: transition-colors"
+                className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+                aria-label="Toggle navigation menu"
               >
                 {isMenuOpen ? (
                   <X className="w-6 h-6 text-gray-700" />
@@ -128,70 +113,37 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Mobile Menu */}
+          {/* Enhanced Mobile Menu */}
           <div
-            className={`lg:hidden transition-all duration-300 ease-in-out ${
-              isMenuOpen
-                ? "max-h-96 opacity-100 pb-4"
-                : "max-h-0 opacity-0 overflow-hidden"
+            className={`lg:hidden transition-all duration-300 ease-in-out overflow-hidden ${
+              isMenuOpen ? "max-h-96 opacity-100 pb-4" : "max-h-0 opacity-0"
             }`}
           >
             <div className="flex flex-col gap-1 pt-4 border-t border-gray-200">
-              <a
-                href="/"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Home
-              </a>
-              <a
-                href="/about"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                About Us
-              </a>
-              <a
-                href="/team"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Team
-              </a>
-              <a
-                href="/specialities"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Specialities
-              </a>
-              <a
-                href="/services"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Services
-              </a>
-              <a
-                href="/testimonials"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Testimonials
-              </a>
-              <a
-                href="/contact"
-                className="text-gray-700 hover:text-blue-600 hover: transition-all duration-200 font-medium py-0.5 px-4 rounded-lg"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Contact Us
-              </a>
+              {[
+                { href: "/", label: "Home" },
+                { href: "/about", label: "About Us" },
+                { href: "/team", label: "Our Doctors" },
+                { href: "/specialities", label: "Specialities" },
+                { href: "/services", label: "Services" },
+                { href: "/testimonials", label: "Patient Reviews" },
+                { href: "/contact", label: "Contact Us" },
+              ].map((item) => (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium py-0.5 px-4 rounded-lg flex items-center gap-3"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {item.label}
+                </a>
+              ))}
             </div>
           </div>
         </div>
       </nav>
 
-      {/* Booking Modal */}
+      {/* Enhanced Booking Modal */}
       <BookingModal
         isOpen={isBookingModalOpen}
         onClose={() => setIsBookingModalOpen(false)}

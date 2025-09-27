@@ -2,7 +2,6 @@
 import React from "react";
 import TestimonialsHero from "@/components/testimonials/TestimonialsHero";
 import TestimonialsMain from "@/components/testimonials/TestimonialsMain";
-import TestimonialsCallToAction from "@/components/testimonials/TestimonialsCallToAction";
 import { testimonials } from "@/data/hospitalData";
 
 const TestimonialsPage = () => {
@@ -11,8 +10,6 @@ const TestimonialsPage = () => {
 
             <TestimonialsHero />
             <TestimonialsMain testimonials={testimonials} />
-
-            <TestimonialsCallToAction />
 
         </div>
     );
