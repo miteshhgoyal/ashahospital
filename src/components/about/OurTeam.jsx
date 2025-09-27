@@ -14,7 +14,7 @@ const OurTeam = ({ doctors }) => {
           description="Our hospital is led by specialists who bring expertise and dedication to every patient's care"
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-5 gap-4">
           {doctors.map((doctor, index) => (
             <DoctorCard key={doctor.id} doctor={doctor} index={index} />
           ))}

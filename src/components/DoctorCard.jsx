@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const DoctorCard = ({ doctor, index }) => {
   return (
-    <div className="group bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:scale-105 border border-gray-100">
+    <div className="group bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100">
       {/* Image Section */}
       <div className="relative overflow-hidden">
         <Image
@@ -13,7 +13,6 @@ const DoctorCard = ({ doctor, index }) => {
           width={400}
           height={400}
           className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
-          priority={index < 4} // Prioritize first 4 images for performance
         />
 
         {/* Experience Badge */}

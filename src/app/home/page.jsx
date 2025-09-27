@@ -179,7 +179,7 @@ const HomePage = () => {
             description="Our team of highly qualified and experienced medical professionals is dedicated to providing exceptional healthcare services with compassion and expertise."
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-5 gap-4">
             {doctors.map((doctor, index) => (
               <DoctorCard key={index} doctor={doctor} index={index} />
             ))}

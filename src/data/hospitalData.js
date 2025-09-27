@@ -287,6 +287,18 @@ export const doctors = [
         color: "from-blue-500 to-purple-600",
         department: "Orthopedics"
     },
+    {
+        id: 5,
+        name: "Dr. Vijay Kumar",
+        specialty: "Critical Care Specialist",
+        location: "Muzaffarpur",
+        qualifications: "MBBS, MD, FCCM",
+        image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=400&auto=format&fit=crop",
+        experience: "12+ Years",
+        color: "from-blue-500 to-indigo-600",
+        // color: "from-blue-500 to-purple-600",
+        department: "Critical Care",
+    }
 ];
 
 // Testimonials

@@ -49,18 +49,22 @@ const Navbar = () => {
                 <Heart className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
               <div className="hidden sm:block">
-                <h1 className="text-lg sm:text-xl font-bold text-gray-900">
-                  Asha Hospital
-                </h1>
-                <p className="text-xs text-gray-600">
-                  Excellence in Healthcare
-                </p>
+                <a href="/">
+                  <h1 className="text-lg sm:text-xl font-bold text-gray-900">
+                    Asha Hospital
+                  </h1>
+                  <p className="text-xs text-gray-600">
+                    Excellence in Healthcare
+                  </p>
+                </a>
               </div>
               {/* Mobile Logo Text */}
               <div className="block sm:hidden">
-                <h1 className="text-base font-bold text-gray-900">
-                  Asha Hospital
-                </h1>
+                <a href="/">
+                  <h1 className="text-base font-bold text-gray-900">
+                    Asha Hospital
+                  </h1>
+                </a>
               </div>
             </div>
 
