@@ -13,7 +13,7 @@ const SpecialitiesOverview = ({ specialties }) => {
           description="From neurology to orthopedics, we offer specialized care across multiple medical disciplines with expert doctors and advanced technology."
         />
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 2xl:grid-cols-8 justify-center gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 2xl:grid-cols-8 justify-center gap-2 sm:gap-3">
           {specialties.map((specialty, index) => (
             <SpecialtyCard key={index} specialty={specialty} index={index} />
           ))}

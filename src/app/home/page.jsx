@@ -137,7 +137,7 @@ const HomePage = () => {
             description="Experience world-class healthcare with state-of-the-art facilities, expert medical professionals, and compassionate care that puts patients first."
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3">
             {features.map((feature, index) => (
               <FeatureCard key={index} feature={feature} index={index} />
             ))}
@@ -239,31 +239,6 @@ const HomePage = () => {
               Call Now
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
-          </div>
-
-          {/* Contact Info Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-16 border-t border-white/20">
-            <div className="/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
-              <Clock className="w-10 h-10 text-cyan-400 mx-auto mb-4" />
-              <h3 className="font-bold text-white mb-2 text-xl">
-                24/7 Emergency
-              </h3>
-              <p className="text-gray-300">Always available for urgent care</p>
-            </div>
-            <div className="/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
-              <MapPin className="w-10 h-10 text-cyan-400 mx-auto mb-4" />
-              <h3 className="font-bold text-white mb-2 text-xl">
-                Muzaffarpur, Bihar
-              </h3>
-              <p className="text-gray-300">Easy to reach location</p>
-            </div>
-            <div className="/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
-              <Heart className="w-10 h-10 text-cyan-400 mx-auto mb-4" />
-              <h3 className="font-bold text-white mb-2 text-xl">
-                50,000+ Patients
-              </h3>
-              <p className="text-gray-300">Trusted by thousands</p>
-            </div>
           </div>
         </div>
       </section>

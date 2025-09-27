@@ -1,4 +1,3 @@
-// data/hospitalData.js
 import {
     Brain, Heart, UserCheck, Stethoscope, Activity, Baby, Users, Eye,
     Award, Microscope, Shield, Phone, Calendar, Clock, MapPin, ChevronRight,
@@ -7,6 +6,10 @@ import {
     Instagram,
     Twitter,
     Youtube,
+
+    AlertTriangle,
+
+
 } from "lucide-react";
 
 export const heroSlides = [
@@ -54,59 +57,59 @@ export const contactInfo = {
 export const specialties = [
     {
         name: "Neuro",
-        icon: Brain,
         color: "from-blue-500 to-blue-600",
-        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
-        description: "Advanced neurological treatments and brain surgery"
+        bgColor: "bg-gradient-to-br from-white/20 to-white/50 backdrop-blur-sm",
+        description: "Advanced neurological treatments and brain surgery",
+        image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?q=80&w=800&auto=format&fit=crop"
     },
     {
         name: "Obs-Gynaec",
-        icon: Heart,
         color: "from-purple-500 to-blue-600",
-        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
-        description: "Comprehensive women's health and maternity services"
+        bgColor: "bg-gradient-to-br from-white/20 to-white/50 backdrop-blur-sm",
+        description: "Comprehensive women's health and maternity services",
+        image: "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=800&auto=format&fit=crop"
     },
     {
         name: "Ortho",
-        icon: UserCheck,
         color: "from-blue-500 to-purple-600",
-        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
-        description: "Bone, joint treatments and sports medicine"
+        bgColor: "bg-gradient-to-br from-white/20 to-white/50 backdrop-blur-sm",
+        description: "Bone, joint treatments and sports medicine",
+        image: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?q=80&w=800&auto=format&fit=crop"
     },
     {
         name: "Medicine",
-        icon: Stethoscope,
         color: "from-violet-500 to-purple-600",
-        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
-        description: "Internal medicine and general healthcare"
+        bgColor: "bg-gradient-to-br from-white/20 to-white/50 backdrop-blur-sm",
+        description: "Internal medicine and general healthcare",
+        image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=800&auto=format&fit=crop"
     },
     {
         name: "Critical Care",
-        icon: Activity,
         color: "from-blue-500 to-purple-600",
-        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
-        description: "24/7 intensive care and life-saving treatments"
+        bgColor: "bg-gradient-to-br from-white/20 to-white/50 backdrop-blur-sm",
+        description: "24/7 intensive care and life-saving treatments",
+        image: "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?q=80&w=800&auto=format&fit=crop"
     },
     {
         name: "Pediatrics",
-        icon: Baby,
         color: "from-blue-500 to-purple-600",
-        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
-        description: "Specialized care for children and infants"
+        bgColor: "bg-gradient-to-br from-white/20 to-white/50 backdrop-blur-sm",
+        description: "Specialized care for children and infants",
+        image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=800&auto=format&fit=crop"
     },
     {
         name: "ENT",
-        icon: Users,
         color: "from-indigo-500 to-blue-600",
-        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
-        description: "Ear, nose, and throat treatments"
+        bgColor: "bg-gradient-to-br from-white/20 to-white/50 backdrop-blur-sm",
+        description: "Ear, nose, and throat treatments",
+        image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=800&auto=format&fit=crop"
     },
     {
         name: "Ophthalmologist",
-        icon: Eye,
         color: "from-cyan-500 to-blue-600",
-        bgColor: "bg-gradient-to-br from-white/10 to-white/30 backdrop-blur-xs",
-        description: "Complete eye care and vision treatments"
+        bgColor: "bg-gradient-to-br from-white/20 to-white/50 backdrop-blur-sm",
+        description: "Complete eye care and vision treatments",
+        image: "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?q=80&w=800&auto=format&fit=crop"
     },
 ];
 
@@ -116,49 +119,73 @@ export const features = [
         title: "OPD Facilities",
         icon: Users,
         description: "Comprehensive outpatient services with minimal waiting time",
-        color: "from-blue-500 to-cyan-600",
+
     },
     {
         title: "IPD Facilities",
         icon: Heart,
         description: "Advanced inpatient care with modern amenities",
-        color: "from-purple-500 to-blue-600",
+
     },
     {
         title: "Pathology Lab",
         icon: Microscope,
         description: "State-of-the-art diagnostic services with quick results",
-        color: "from-blue-500 to-blue-600",
+
     },
     {
         title: "Emergency Service",
         icon: Activity,
         description: "24/7 emergency medical care with rapid response",
-        color: "from-blue-500 to-purple-600",
+
     },
     {
         title: "Best Surgeons",
         icon: Award,
         description: "Experienced surgical specialists with proven expertise",
-        color: "from-violet-500 to-purple-600",
+
     },
     {
         title: "Neuro Care",
         icon: Brain,
         description: "Advanced neurological treatments and brain surgery",
-        color: "from-indigo-500 to-blue-600",
+
     },
     {
         title: "Gynae Care",
         icon: Heart,
-        description: "Comprehensive women's health and maternity services",
-        color: "from-blue-500 to-purple-600",
+        description: "Comprehensive women's health and reproductive care",
+
+    },
+    {
+        title: "Obstetrician Care",
+        icon: Baby,
+        description: "Expert pregnancy care and delivery services",
+
     },
     {
         title: "Ortho Care",
         icon: Shield,
         description: "Bone, joint treatments and sports medicine",
-        color: "from-purple-500 to-blue-600",
+
+    },
+    {
+        title: "Critical Care",
+        icon: AlertTriangle,
+        description: "Intensive care unit with advanced life support",
+
+    },
+    {
+        title: "Pediatrics Care",
+        icon: Users,
+        description: "Specialized medical care for infants and children",
+
+    },
+    {
+        title: "Ophthalmologist Care",
+        icon: Eye,
+        description: "Complete eye care and vision correction services",
+
     },
 ];
 

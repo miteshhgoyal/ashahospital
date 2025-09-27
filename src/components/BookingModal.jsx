@@ -113,7 +113,7 @@ const BookingModal = ({ isOpen, onClose }) => {
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
       <div className="bg-white rounded-3xl shadow-xl w-full max-w-xl h-[92vh] overflow-hidden">
         {/* Header */}
-        <div className="flex items-center justify-between p-6 bg-gradient-to-br from-medical to-health">
+        <div className="flex items-center justify-between p-6 bg-gradient-to-br from-blue-500 to-purple-500">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10  rounded-full flex items-center justify-center">
               <Stethoscope className="w-10 h-10 text-blue-100" />
