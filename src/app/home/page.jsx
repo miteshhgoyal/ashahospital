@@ -27,6 +27,19 @@ import {
   testimonials,
 } from "@/data/hospitalData";
 
+export const metadata = {
+  title: "Home",
+  description:
+    "Asha Hospital - Premier healthcare services in Bihar with expert specialists, modern facilities, and 24/7 emergency care in Muzaffarpur.",
+  keywords: [
+    "Asha Hospital",
+    "healthcare Bihar",
+    "emergency care",
+    "best hospital Muzaffarpur",
+    "medical specialists",
+  ],
+};
+
 const HomePage = () => {
   return (
     <div className="min-h-screen  font-inter">

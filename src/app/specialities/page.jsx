@@ -9,8 +9,21 @@ import SpecialitiesStats from "@/components/specialities/SpecialitiesStats";
 import {
   detailedSpecialities,
   specialties,
-  hospitalStats,
 } from "@/data/hospitalData";
+
+export const metadata = {
+  title: "Medical Specialities",
+  description:
+    "Expert medical specialities at Asha Hospital: Neurology, Obstetrics & Gynaecology, Orthopedics, and Critical Care in Bihar.",
+  keywords: [
+    "medical specialities",
+    "neurology Bihar",
+    "obstetrics gynaecology",
+    "orthopedics",
+    "critical care",
+    "specialists Muzaffarpur",
+  ],
+};
 
 const SpecialitiesPage = () => {
   return (

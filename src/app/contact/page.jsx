@@ -19,6 +19,19 @@ import {
   Heart,
 } from "lucide-react";
 
+export const metadata = {
+  title: "Contact Us",
+  description:
+    "Contact Asha Hospital for appointments and emergencies. 24/7 emergency care available. Call +91-98765-43210 or visit us in Muzaffarpur, Bihar.",
+  keywords: [
+    "contact Asha Hospital",
+    "hospital phone number",
+    "emergency contact Bihar",
+    "appointment booking",
+    "hospital address Muzaffarpur",
+  ],
+};
+
 // Import optimized data from data file
 import {
   contactInfo,

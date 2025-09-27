@@ -15,6 +15,18 @@ import {
 import MedicalServices from "@/components/about/MedicalServices";
 import WhyAshaHospital from "@/components/about/WhyAshaHospital";
 
+export const metadata = {
+  title: "About Us",
+  description:
+    "Learn about Asha Hospital's mission, experienced medical team, and commitment to providing exceptional healthcare services in Bihar.",
+  keywords: [
+    "about Asha Hospital",
+    "healthcare mission",
+    "medical team Bihar",
+    "hospital history Muzaffarpur",
+  ],
+};
+
 const AboutPage = () => {
   return (
     <div className="min-h-screen ">

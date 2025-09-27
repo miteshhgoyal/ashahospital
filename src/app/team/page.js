@@ -121,6 +121,12 @@ const teamDoctors = [
     }
 ];
 
+export const metadata = {
+    title: 'Our Doctors',
+    description: 'Meet our expert medical team at Asha Hospital. Experienced specialists in neurology, obstetrics, orthopedics, and emergency care.',
+    keywords: ['doctors Asha Hospital', 'medical specialists Bihar', 'expert doctors Muzaffarpur', 'neurology', 'obstetrics', 'orthopedics']
+}
+
 const TeamPage = () => {
     return (
         <div className="min-h-screen ">

@@ -1,12 +1,16 @@
 "use client";
 import React from "react";
 import ServicesHero from "@/components/services/ServicesHero";
-import ServicesOverview from "@/components/services/ServicesOverview";
 import ServiceDetail from "@/components/services/ServiceDetail";
-import ServicesStats from "@/components/services/ServicesStats";
 
 // Import data
-import { detailedServices, services, hospitalStats } from "@/data/hospitalData";
+import { detailedServices } from "@/data/hospitalData";
+
+export const metadata = {
+    title: 'Medical Services',
+    description: 'Comprehensive healthcare services at Asha Hospital including emergency care, surgery, diagnostics, and specialized treatments in Bihar.',
+    keywords: ['medical services', 'healthcare Bihar', 'emergency services', 'surgery', 'diagnostics', 'hospital services Muzaffarpur']
+}
 
 const ServicesPage = () => {
     return (
