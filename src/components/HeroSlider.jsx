@@ -86,8 +86,7 @@ const HeroSlider = ({
 
   return (
     <section
-      className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900"
-      style={{ height: maxHeight }}
+      className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 h-[80vh] sm:h-[90vh]"
       onMouseEnter={() => pauseOnHover && setIsPaused(true)}
       onMouseLeave={() => pauseOnHover && setIsPaused(false)}
     >
