@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    basePath: '/ashahospital',
     output: 'export',
     trailingSlash: true,
     eslint: {
